@@ -14,6 +14,7 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.pogrebniak.firstmod.block.ModBlocks;
 import net.pogrebniak.firstmod.item.ModCreativeModTabs;
 import net.pogrebniak.firstmod.item.ModItems;
 import org.slf4j.Logger;
@@ -28,23 +29,19 @@ public class FirstMateuszBartekMod
     private static final Logger LOGGER = LogUtils.getLogger();
 
 
-    public FirstMateuszBartekMod(FMLJavaModLoadingContext context)
-    {
+    public FirstMateuszBartekMod(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
 
         ModCreativeModTabs.register(modEventBus);
-
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
-
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
-
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
-
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
         context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }

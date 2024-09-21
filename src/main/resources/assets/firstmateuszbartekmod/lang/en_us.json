@@ -3,5 +3,9 @@
   "item.firstmateuszbartekmod.mithril_ingot": "Mithril Ingot",
   "item.firstmateuszbartekmod.mithril_bar": "Mithril Bar",
 
-  "creativetab.test_tab": "LOTR tab"
+  "block.firstmateuszbartekmod.mithril_block": "Block of Mithril ",
+  "block.firstmateuszbartekmod.mithril_raw_block": "Block of Raw Mithril ",
+  "block.firstmateuszbartekmod.mithril_bar_block": "Block of Bar Mithril ",
+
+  "creativetab.lotr_tab": "LOTR tab"
 }
