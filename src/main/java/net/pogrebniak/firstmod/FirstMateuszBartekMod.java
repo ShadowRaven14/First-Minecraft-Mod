@@ -53,9 +53,9 @@ public class FirstMateuszBartekMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.MITHRIL_RAW);
-            event.accept(ModItems.MITHRIL_INGOT);
-            event.accept(ModItems.MITHRIL_BAR);
+            //event.accept(ModItems.MITHRIL_RAW);
+            //event.accept(ModItems.MITHRIL_INGOT);
+            //event.accept(ModItems.MITHRIL_BAR);
         }
     }
 

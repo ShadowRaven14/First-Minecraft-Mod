@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "mithril_bar",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "M": {
+      "item": "firstmateuszbartekmod:mithril_ingot"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "B": {
+      "item": "minecraft:blaze_powder"
+    }
+  },
+  "pattern": [
+    "AIB",
+    "GMG",
+    "BIA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "firstmateuszbartekmod:mithril_bar"
+  }
+}

@@ -21,7 +21,7 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, FirstMateuszBartekMod.MOD_ID);
 
-    public static final RegistryObject<Block> MITHRIL_BLOCK = registerBlock("mithril_block",
+    public static final RegistryObject<Block> MITHRIL_INGOT_BLOCK = registerBlock("mithril_ingot_block",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.OBSIDIAN).sound(SoundType.AMETHYST)));
     public static final RegistryObject<Block> MITHRIL_RAW_BLOCK = registerBlock("mithril_raw_block",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.OBSIDIAN).sound(SoundType.AMETHYST)));

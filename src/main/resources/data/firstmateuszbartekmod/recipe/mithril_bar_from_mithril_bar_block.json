@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "mithril_bar",
+  "ingredients": [
+    {
+      "item": "firstmateuszbartekmod:mithril_bar_block"
+    }
+  ],
+  "result": {
+    "id": "firstmateuszbartekmod:mithril_bar",
+    "count": 9
+  }
+}

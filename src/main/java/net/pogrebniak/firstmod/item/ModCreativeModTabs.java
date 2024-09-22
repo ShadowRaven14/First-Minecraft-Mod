@@ -20,9 +20,9 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.MITHRIL_RAW.get());
                         pOutput.accept(ModItems.MITHRIL_INGOT.get());
-
-                        pOutput.accept(ModBlocks.MITHRIL_BLOCK.get());
+                        pOutput.accept(ModItems.MITHRIL_BAR.get());
                         pOutput.accept(ModBlocks.MITHRIL_RAW_BLOCK.get());
+                        pOutput.accept(ModBlocks.MITHRIL_INGOT_BLOCK.get());
                         pOutput.accept(ModBlocks.MITHRIL_BAR_BLOCK.get());
                     })
                     .build());
