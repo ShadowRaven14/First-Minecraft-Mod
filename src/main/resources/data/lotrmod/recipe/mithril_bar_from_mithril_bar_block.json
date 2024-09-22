@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "mithril_bar",
+  "ingredients": [
+    {
+      "item": "lotrmod:mithril_bar_block"
+    }
+  ],
+  "result": {
+    "id": "lotrmod:mithril_bar",
+    "count": 9
+  }
+}

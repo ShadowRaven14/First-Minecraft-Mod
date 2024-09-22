@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "mithril_ingot_block",
+  "key": {
+    "#": {
+      "item": "lotrmod:mithril_raw"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "lotrmod:mithril_raw_block"
+  }
+}

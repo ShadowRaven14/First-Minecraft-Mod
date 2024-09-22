@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "mithril_bar_block",
+  "key": {
+    "#": {
+      "item": "lotrmod:mithril_bar"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "lotrmod:mithril_bar_block"
+  }
+}
