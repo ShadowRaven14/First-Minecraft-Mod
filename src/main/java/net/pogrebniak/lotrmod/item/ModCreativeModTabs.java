@@ -24,6 +24,10 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.MITHRIL_RAW_BLOCK.get());
                         pOutput.accept(ModBlocks.MITHRIL_INGOT_BLOCK.get());
                         pOutput.accept(ModBlocks.MITHRIL_BAR_BLOCK.get());
+                        pOutput.accept(ModBlocks.MITHRIL_ORE.get());
+                        pOutput.accept(ModBlocks.MITHRIL_ORE_DEEPSLATE.get());
+                        pOutput.accept(ModBlocks.MITHRIL_ORE_END_STONE.get());
+                        pOutput.accept(ModBlocks.MITHRIL_ORE_NETHER.get());
                     })
                     .build());
 

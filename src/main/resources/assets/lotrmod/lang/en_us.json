@@ -6,6 +6,10 @@
   "block.lotrmod.mithril_raw_block": "Block of Raw Mithril ",
   "block.lotrmod.mithril_ingot_block": "Block of Ingot Mithril ",
   "block.lotrmod.mithril_bar_block": "Block of Bar Mithril ",
+  "block.lotrmod.mithril_ore": "Mithril ore",
+  "block.lotrmod.mithril_ore_deepslate": "Deepslate Mithril ore",
+  "block.lotrmod.mithril_ore_end_stone": "End Stone Mithril ore",
+  "block.lotrmod.mithril_ore_nether": "Nether Mithril ore",
 
   "creativetab.lotr_tab": "LOTR tab"
 }
