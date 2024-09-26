@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "ore_detector",
+  "key": {
+    "D": {
+      "item": "lotrmod:metal_detector"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    },
+    "M": {
+      "item": "lotrmod:mithril_ingot"
+    }
+  },
+  "pattern": [
+    "D",
+    "R",
+    "M"
+  ],
+  "result": {
+    "count": 1,
+    "id": "lotrmod:ore_detector"
+  }
+}

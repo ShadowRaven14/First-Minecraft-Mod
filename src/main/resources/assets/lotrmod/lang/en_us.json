@@ -3,6 +3,9 @@
   "item.lotrmod.mithril_ingot": "Mithril Ingot",
   "item.lotrmod.mithril_bar": "Mithril Bar",
 
+  "item.lotrmod.metal_detector": "Metal Detector",
+  "item.lotrmod.ore_detector": "Ore Detector",
+
   "block.lotrmod.mithril_raw_block": "Block of Raw Mithril ",
   "block.lotrmod.mithril_ingot_block": "Block of Ingot Mithril ",
   "block.lotrmod.mithril_bar_block": "Block of Bar Mithril ",

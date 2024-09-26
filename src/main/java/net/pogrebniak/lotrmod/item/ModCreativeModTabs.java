@@ -28,6 +28,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.MITHRIL_ORE_DEEPSLATE.get());
                         pOutput.accept(ModBlocks.MITHRIL_ORE_END_STONE.get());
                         pOutput.accept(ModBlocks.MITHRIL_ORE_NETHER.get());
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
+                        pOutput.accept(ModItems.ORE_DETECTOR.get());
                     })
                     .build());
 

@@ -6,6 +6,8 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.pogrebniak.lotrmod.LotrMod;
+import net.pogrebniak.lotrmod.item.custom.MetalDetectorItem;
+import net.pogrebniak.lotrmod.item.custom.OreDetectorItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -19,6 +21,12 @@ public class ModItems {
 
     public static final RegistryObject<Item> MITHRIL_BAR = ITEMS.register("mithril_bar",
             ()-> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
+            ()-> new MetalDetectorItem(new Item.Properties().durability(200)));
+
+    public static final RegistryObject<Item> ORE_DETECTOR = ITEMS.register("ore_detector",
+            ()-> new OreDetectorItem(new Item.Properties().durability(400)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
