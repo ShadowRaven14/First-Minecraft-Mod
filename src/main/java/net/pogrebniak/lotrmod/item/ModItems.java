@@ -6,6 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.pogrebniak.lotrmod.LotrMod;
+import net.pogrebniak.lotrmod.item.custom.FuelItem;
 import net.pogrebniak.lotrmod.item.custom.MetalDetectorItem;
 import net.pogrebniak.lotrmod.item.custom.ModFoods;
 import net.pogrebniak.lotrmod.item.custom.OreDetectorItem;
@@ -31,6 +32,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> LEMBAS = ITEMS.register("lembas",
             ()-> new Item(new Item.Properties().food(ModFoods.LEMBAS)));
+
+    public static final RegistryObject<Item> DWARVEN_COAL = ITEMS.register("dwarven_coal",
+            ()-> new FuelItem(new Item.Properties(), 20000));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

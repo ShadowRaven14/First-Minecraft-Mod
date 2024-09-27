@@ -33,6 +33,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.ORE_DETECTOR.get());
                         pOutput.accept(ModBlocks.SOUND_BLOCK.get());
                         pOutput.accept(ModItems.LEMBAS.get());
+                        pOutput.accept(ModItems.DWARVEN_COAL.get());
 
                     })
                     .build());
