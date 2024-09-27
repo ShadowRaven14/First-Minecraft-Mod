@@ -7,6 +7,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.pogrebniak.lotrmod.LotrMod;
 import net.pogrebniak.lotrmod.item.custom.MetalDetectorItem;
+import net.pogrebniak.lotrmod.item.custom.ModFoods;
 import net.pogrebniak.lotrmod.item.custom.OreDetectorItem;
 
 public class ModItems {
@@ -27,6 +28,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> ORE_DETECTOR = ITEMS.register("ore_detector",
             ()-> new OreDetectorItem(new Item.Properties().durability(400)));
+
+    public static final RegistryObject<Item> LEMBAS = ITEMS.register("lembas",
+            ()-> new Item(new Item.Properties().food(ModFoods.LEMBAS)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

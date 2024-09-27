@@ -9,6 +9,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.pogrebniak.lotrmod.LotrMod;
 import net.pogrebniak.lotrmod.block.ModBlocks;
+import net.pogrebniak.lotrmod.item.custom.ModFoods;
 
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -31,6 +32,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
                         pOutput.accept(ModItems.ORE_DETECTOR.get());
                         pOutput.accept(ModBlocks.SOUND_BLOCK.get());
+                        pOutput.accept(ModItems.LEMBAS.get());
 
                     })
                     .build());
