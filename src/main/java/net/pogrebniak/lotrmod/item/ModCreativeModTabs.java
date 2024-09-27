@@ -30,6 +30,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.MITHRIL_ORE_NETHER.get());
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
                         pOutput.accept(ModItems.ORE_DETECTOR.get());
+                        pOutput.accept(ModBlocks.SOUND_BLOCK.get());
+
                     })
                     .build());
 

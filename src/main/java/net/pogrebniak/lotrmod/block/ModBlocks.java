@@ -13,6 +13,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.pogrebniak.lotrmod.LotrMod;
+import net.pogrebniak.lotrmod.block.custom.SoundBlock;
 import net.pogrebniak.lotrmod.item.ModItems;
 
 import java.util.function.Supplier;
@@ -53,6 +54,10 @@ public class ModBlocks {
             () -> new DropExperienceBlock(UniformInt.of(3, 7),
                     BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_ORE).requiresCorrectToolForDrops()
                                 .sound(SoundType.NETHERRACK)));
+
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            () -> new SoundBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops()
+                    .sound(SoundType.AMETHYST)));
 
 
 
