@@ -9,7 +9,6 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.pogrebniak.lotrmod.LotrMod;
 import net.pogrebniak.lotrmod.block.ModBlocks;
-import net.pogrebniak.lotrmod.item.custom.ModFoods;
 
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -28,9 +27,10 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.MITHRIL_ORE.get());
                         pOutput.accept(ModBlocks.MITHRIL_ORE_DEEPSLATE.get());
                         pOutput.accept(ModBlocks.MITHRIL_ORE_END_STONE.get());
+                        pOutput.accept(ModItems.ENERGY_CIRCUIT_INGOT.get());
                         pOutput.accept(ModBlocks.MITHRIL_ORE_NETHER.get());
-                        pOutput.accept(ModItems.METAL_DETECTOR.get());
-                        pOutput.accept(ModItems.ORE_DETECTOR.get());
+                        pOutput.accept(ModItems.DETECTOR_METAL.get());
+                        pOutput.accept(ModItems.DETECTOR_CRYSTAL.get());
                         pOutput.accept(ModBlocks.SOUND_BLOCK.get());
                         pOutput.accept(ModItems.LEMBAS.get());
                         pOutput.accept(ModItems.DWARVEN_COAL.get());

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "lotrmod:item/ore_detector"
+    "layer0": "lotrmod:item/detector_metal"
   }
 }

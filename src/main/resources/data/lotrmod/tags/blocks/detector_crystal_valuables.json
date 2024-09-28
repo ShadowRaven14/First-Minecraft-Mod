@@ -1,0 +1,12 @@
+{
+  "values": [
+    "lotrmod:mithril_ore",
+    "lotrmod:mithril_ore_deepslate",
+    "lotrmod:mithril_ore_end_stone",
+    "lotrmod:mithril_ore_nether",
+    "minecraft:diamond_ore",
+    "minecraft:diamond_ore_deepslate",
+    "minecraft:emerald_ore",
+    "minecraft:emerald_ore_deepslate"
+  ]
+}

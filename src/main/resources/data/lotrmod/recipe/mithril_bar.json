@@ -3,26 +3,20 @@
   "category": "misc",
   "group": "mithril_bar",
   "key": {
-    "I": {
-      "item": "minecraft:iron_ingot"
-    },
     "M": {
       "item": "lotrmod:mithril_ingot"
     },
     "G": {
       "item": "minecraft:gold_ingot"
     },
-    "A": {
-      "item": "minecraft:amethyst_shard"
-    },
-    "B": {
-      "item": "minecraft:blaze_powder"
+    "I": {
+      "item": "minecraft:iron_ingot"
     }
   },
   "pattern": [
-    "AIB",
+    "IGI",
     "GMG",
-    "BIA"
+    "IGI"
   ],
   "result": {
     "count": 1,

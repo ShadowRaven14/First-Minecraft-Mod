@@ -1,28 +1,25 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "group": "metal_detector",
+  "group": "detector_metal",
   "key": {
     "S": {
       "item": "minecraft:stick"
     },
-    "I": {
-      "item": "minecraft:iron_ingot"
-    },
-    "R": {
-      "item": "minecraft:redstone"
+    "C": {
+      "item": "lotrmod:energy_circuit_ingot"
     },
     "A": {
       "item": "minecraft:amethyst_shard"
     }
   },
   "pattern": [
-    " S ",
-    "RIR",
-    " A "
+    "S",
+    "C",
+    "A"
   ],
   "result": {
     "count": 1,
-    "id": "lotrmod:metal_detector"
+    "id": "lotrmod:detector_metal"
   }
 }

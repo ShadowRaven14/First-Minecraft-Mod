@@ -3,8 +3,11 @@
   "item.lotrmod.mithril_ingot": "Mithril Ingot",
   "item.lotrmod.mithril_bar": "Mithril Bar",
 
-  "item.lotrmod.metal_detector": "Metal Detector",
-  "item.lotrmod.ore_detector": "Ore Detector",
+  "item.lotrmod.energy_circuit_ingot": "Energy Circuit Ingot",
+  "item.lotrmod.detector_metal": "Metal Detector",
+  "tooltip.lotrmod.detector_metal.tooltip": "Finds metals underground",
+  "item.lotrmod.detector_crystal": "Ore Detector",
+  "tooltip.lotrmod.detector_crystal.tooltip": "Finds valuables underground",
 
   "block.lotrmod.mithril_raw_block": "Block of Raw Mithril ",
   "block.lotrmod.mithril_ingot_block": "Block of Ingot Mithril ",
@@ -17,8 +20,10 @@
   "block.lotrmod.sound_block": "Sound Block",
 
   "item.lotrmod.lembas": "Elven Lembas",
+  "tooltip.lotrmod.lembas.tooltip": "Satisfies hunger for the whole day",
 
   "item.lotrmod.dwarven_coal": "Dwarven Magma Coal",
+  "tooltip.lotrmod.dwarven_coal.tooltip": "It burns in the furnaces all day long",
 
   "creativetab.lotr_tab": "LOTR tab"
 }

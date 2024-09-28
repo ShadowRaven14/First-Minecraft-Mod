@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "lotrmod:item/metal_detector"
+    "layer0": "lotrmod:item/energy_circuit_ingot"
   }
 }
