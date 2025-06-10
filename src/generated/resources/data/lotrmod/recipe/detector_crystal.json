@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "E": {
+      "item": "lotrmod:detector_metal"
+    },
+    "P": {
+      "item": "lotrmod:mithril_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "pattern": [
+    "E",
+    "R",
+    "P"
+  ],
+  "result": {
+    "count": 1,
+    "id": "lotrmod:detector_crystal"
+  }
+}

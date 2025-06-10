@@ -1,0 +1,9 @@
+// 1.21.1	2025-06-10T18:43:56.7343766	Loot Tables
+bbb06aa89a1d2ef8f12784e7482ad39d9f8592ed data/lotrmod/loot_table/blocks/mithril_bar_block.json
+ba55cb3cff5b894929efed82e2cefd7252ceb2c3 data/lotrmod/loot_table/blocks/mithril_ingot_block.json
+e23e4b09916242d2d48320f5b5d84aeb8e2471bb data/lotrmod/loot_table/blocks/mithril_ore.json
+cd7d59c49f475d32060e9586da474add83b83ff1 data/lotrmod/loot_table/blocks/mithril_ore_deepslate.json
+b3add0e1c897de792528eec5c750048707cac24b data/lotrmod/loot_table/blocks/mithril_ore_end_stone.json
+3eec8f027b5ca63ce05c0f9bb49218cf392d4ffa data/lotrmod/loot_table/blocks/mithril_ore_nether.json
+1d6f4bc5bb67224e55ac64962a840189a7b52d81 data/lotrmod/loot_table/blocks/mithril_raw_block.json
+609d5db3760ad2cd6db90049aaf95d5b0ff6bc9e data/lotrmod/loot_table/blocks/sound_block.json

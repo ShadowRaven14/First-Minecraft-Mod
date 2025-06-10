@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 1.5,
+  "group": "mithril",
+  "ingredient": {
+    "item": "lotrmod:mithril_ore_nether"
+  },
+  "result": {
+    "id": "lotrmod:mithril_ingot"
+  }
+}

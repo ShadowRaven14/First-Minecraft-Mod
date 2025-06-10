@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_nugget"
+    },
+    "Q": {
+      "item": "minecraft:copper_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "pattern": [
+    "RR",
+    "QG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "lotrmod:energy_circuit_ingot"
+  }
+}

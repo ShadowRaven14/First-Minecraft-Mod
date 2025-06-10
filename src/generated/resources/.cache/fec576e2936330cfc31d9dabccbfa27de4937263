@@ -1,0 +1,5 @@
+// 1.21.1	2025-06-10T21:16:07.6690905	Tags for minecraft:block mod id lotrmod
+bb742438c8120bedb6afbba7101ce41bcbe4c8a3 data/lotrmod/tags/block/detector_crystal_valuables.json
+bb742438c8120bedb6afbba7101ce41bcbe4c8a3 data/lotrmod/tags/block/detector_metal_valuables.json
+c49d61dc640e774cbac105527f96d4f74788af18 data/minecraft/tags/block/mineable/pickaxe.json
+024f823f1bf35b0c9c23cbe2dc28934aa6aa38aa data/minecraft/tags/block/needs_diamond_tool.json

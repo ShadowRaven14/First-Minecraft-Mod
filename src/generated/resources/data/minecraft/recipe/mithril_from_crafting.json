@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "P": {
+      "item": "lotrmod:mithril_ingot"
+    },
+    "U": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    "IUI",
+    "UPU",
+    "IUI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "lotrmod:mithril_bar"
+  }
+}

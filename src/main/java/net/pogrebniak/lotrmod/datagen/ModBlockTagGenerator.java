@@ -29,7 +29,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.MITHRIL_ORE.get(),
                         ModBlocks.MITHRIL_RAW_BLOCK.get(),
                         ModBlocks.MITHRIL_INGOT_BLOCK.get(),
-                        ModBlocks.MITHRIL_INGOT_BLOCK.get(),
+                        ModBlocks.MITHRIL_BAR_BLOCK.get(),
                         ModBlocks.MITHRIL_ORE.get(),
                         ModBlocks.MITHRIL_ORE_DEEPSLATE.get(),
                         ModBlocks.MITHRIL_ORE_NETHER.get(),
