@@ -33,6 +33,9 @@ public class ModItems {
     public static final RegistryObject<Item> THE_ONE_RING = ITEMS.register("the_one_ring",
             ()-> new The_One_Ring(new Item.Properties()));
 
+    public static final RegistryObject<Item> CHISEL = ITEMS.register("chisel",
+            () -> new ChiselItem(new Item.Properties().durability(32)));
+
 
     public static final RegistryObject<Item> LEMBAS = ITEMS.register("lembas",
             ()-> new Lembas(new Item.Properties().food(Lembas.LEMBAS)));

@@ -52,6 +52,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.DWARVEN_COAL.get());
                         pOutput.accept(ModItems.THE_ONE_RING.get());
                         pOutput.accept(ModItems.ENERGY_CIRCUIT_INGOT.get());
+                        pOutput.accept(ModItems.CHISEL.get());
                     })
                     .build());
 

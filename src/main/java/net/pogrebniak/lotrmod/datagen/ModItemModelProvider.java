@@ -38,6 +38,8 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         basicItem(ModItems.THE_ONE_RING.get());
 
+        basicItem(ModItems.CHISEL.get());
+
         buttonItem(ModBlocks.MITHRIL_BUTTON, ModBlocks.MITHRIL_INGOT_BLOCK);
         fenceItem(ModBlocks.MITHRIL_FENCE, ModBlocks.MITHRIL_INGOT_BLOCK);
         wallItem(ModBlocks.MITHRIL_WALL, ModBlocks.MITHRIL_INGOT_BLOCK);
