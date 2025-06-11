@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_inventory",
+  "textures": {
+    "texture": "lotrmod:block/mithril_ingot_block"
+  }
+}

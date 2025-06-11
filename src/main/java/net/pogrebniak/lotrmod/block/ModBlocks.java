@@ -5,16 +5,16 @@ import net.minecraft.core.Position;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.DropExperienceBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
+import net.minecraft.world.level.block.state.properties.WoodType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.pogrebniak.lotrmod.LotrMod;
+import net.pogrebniak.lotrmod.block.custom.MithrilLamp;
 import net.pogrebniak.lotrmod.block.custom.SoundBlock;
 import net.pogrebniak.lotrmod.item.ModItems;
 
@@ -60,6 +60,37 @@ public class ModBlocks {
     public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
             () -> new SoundBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops()
                     .sound(SoundType.AMETHYST).lightLevel(state -> 9)));
+
+    public static final RegistryObject<StairBlock> MITHRIL_STAIRS = registerBlock("mithril_stairs",
+            () -> new StairBlock(ModBlocks.MITHRIL_INGOT_BLOCK.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<SlabBlock> MITHRIL_SLAB = registerBlock("mithril_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<PressurePlateBlock> MITHRIL_PRESSURE_PLATE = registerBlock("mithril_pressure_plate",
+            () -> new PressurePlateBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<ButtonBlock> MITHRIL_BUTTON = registerBlock("mithril_button",
+            () -> new ButtonBlock(BlockSetType.IRON, 1, BlockBehaviour.Properties.of().strength(3f)
+                    .requiresCorrectToolForDrops().noCollission()));
+
+    public static final RegistryObject<FenceBlock> MITHRIL_FENCE = registerBlock("mithril_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<FenceGateBlock> MITHRIL_FENCE_GATE = registerBlock("mithril_fence_gate",
+            () -> new FenceGateBlock(WoodType.ACACIA, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<WallBlock> MITHRIL_WALL = registerBlock("mithril_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<DoorBlock> MITHRIL_DOOR = registerBlock("mithril_door",
+            () -> new DoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(3f)
+                    .requiresCorrectToolForDrops().noOcclusion()));
+    public static final RegistryObject<TrapDoorBlock> MITHRIL_TRAPDOOR = registerBlock("mithril_trapdoor",
+            () -> new TrapDoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(3f)
+                            .requiresCorrectToolForDrops().noOcclusion()));
+
+    public static final RegistryObject<Block> MITHRIL_LAMP = registerBlock("mithril_block",
+            () -> new MithrilLamp(BlockBehaviour.Properties.of().strength(3f)
+                    .lightLevel(state -> state.getValue(MithrilLamp.CLICKED) ? 15 : 0)));
 
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block) {

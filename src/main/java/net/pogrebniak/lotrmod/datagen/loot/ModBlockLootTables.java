@@ -48,6 +48,23 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.MITHRIL_ORE_END_STONE.get(),
                 block -> createCopperLikeOreDrops(ModBlocks.MITHRIL_ORE.get(), ModItems.MITHRIL_RAW.get()));
 
+        dropSelf(ModBlocks.MITHRIL_STAIRS.get());
+        this.add(ModBlocks.MITHRIL_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.MITHRIL_SLAB.get()));
+
+
+        dropSelf(ModBlocks.MITHRIL_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.MITHRIL_BUTTON.get());
+        dropSelf(ModBlocks.MITHRIL_FENCE.get());
+        dropSelf(ModBlocks.MITHRIL_FENCE_GATE.get());
+        dropSelf(ModBlocks.MITHRIL_WALL.get());
+        dropSelf(ModBlocks.MITHRIL_TRAPDOOR.get());
+
+        this.add(ModBlocks.MITHRIL_DOOR.get(),
+                block -> createDoorTable(ModBlocks.MITHRIL_DOOR.get()));
+
+        dropSelf(ModBlocks.MITHRIL_LAMP.get());
+
 
     }
 

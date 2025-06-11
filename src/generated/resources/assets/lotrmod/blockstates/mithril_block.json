@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "lotrmod:block/mithril_lamp_off"
+    },
+    "clicked=true": {
+      "model": "lotrmod:block/mithril_lamp_on"
+    }
+  }
+}

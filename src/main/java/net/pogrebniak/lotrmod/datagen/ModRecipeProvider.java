@@ -119,6 +119,35 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreBlasting(pRecipeOutput, MITHRIL_SMELTABLES, RecipeCategory.MISC, ModItems.MITHRIL_INGOT.get(), 1.5f, 100, "mithril");
         oreSmelting(pRecipeOutput, MITHRIL_SMELTABLES, RecipeCategory.MISC, ModItems.MITHRIL_INGOT.get(), 1.5f, 150, "mithril");
 
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,  ModItems.THE_ONE_RING.get())
+                .pattern("OOO")
+                .pattern("OVO")
+                .pattern("OOO")
+                .define('O', Items.GOLD_BLOCK)
+                .define('V', ModBlocks.MITHRIL_BAR_BLOCK.get())
+                .unlockedBy(getHasName(ModItems.MITHRIL_BAR.get()), has(ModItems.MITHRIL_BAR.get())).save(pRecipeOutput);
+
+        stairBuilder(ModBlocks.MITHRIL_STAIRS.get(), Ingredient.of(ModItems.MITHRIL_INGOT.get())).group("mithril")
+                .unlockedBy(getHasName(ModItems.MITHRIL_INGOT.get()), has(ModItems.MITHRIL_INGOT.get())).save(pRecipeOutput);
+
+        slab(pRecipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.MITHRIL_SLAB.get(), ModItems.MITHRIL_INGOT.get());
+
+        fenceBuilder(ModBlocks.MITHRIL_FENCE.get(), Ingredient.of(ModItems.MITHRIL_INGOT.get())).group("mithril")
+                .unlockedBy(getHasName(ModItems.MITHRIL_INGOT.get()), has(ModItems.MITHRIL_INGOT.get())).save(pRecipeOutput);
+
+        fenceGateBuilder(ModBlocks.MITHRIL_FENCE_GATE.get(), Ingredient.of(ModItems.MITHRIL_INGOT.get())).group("mithril")
+                .unlockedBy(getHasName(ModItems.MITHRIL_INGOT.get()), has(ModItems.MITHRIL_INGOT.get())).save(pRecipeOutput);
+
+        wall(pRecipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.MITHRIL_WALL.get(), ModItems.MITHRIL_INGOT.get());
+
+        doorBuilder(ModBlocks.MITHRIL_DOOR.get(), Ingredient.of(ModItems.MITHRIL_INGOT.get())).group("mithril")
+                .unlockedBy(getHasName(ModItems.MITHRIL_INGOT.get()), has(ModItems.MITHRIL_INGOT.get())).save(pRecipeOutput);
+
+        doorBuilder(ModBlocks.MITHRIL_TRAPDOOR.get(), Ingredient.of(ModItems.MITHRIL_INGOT.get())).group("mithril")
+                .unlockedBy(getHasName(ModItems.MITHRIL_INGOT.get()), has(ModItems.MITHRIL_INGOT.get())).save(pRecipeOutput);
+
+
     }
 
 

@@ -1,5 +1,8 @@
-// 1.21.1	2025-06-10T21:16:07.6690905	Tags for minecraft:block mod id lotrmod
+// 1.21.1	2025-06-11T22:27:46.1120248	Tags for minecraft:block mod id lotrmod
 bb742438c8120bedb6afbba7101ce41bcbe4c8a3 data/lotrmod/tags/block/detector_crystal_valuables.json
 bb742438c8120bedb6afbba7101ce41bcbe4c8a3 data/lotrmod/tags/block/detector_metal_valuables.json
-c49d61dc640e774cbac105527f96d4f74788af18 data/minecraft/tags/block/mineable/pickaxe.json
-024f823f1bf35b0c9c23cbe2dc28934aa6aa38aa data/minecraft/tags/block/needs_diamond_tool.json
+64162e8e2f086430eb998fcbbe8d9d628c23688a data/minecraft/tags/block/fences.json
+dc6987c253226f81207d10fd12c8c2e288ba121b data/minecraft/tags/block/fence_gates.json
+ec75ac50700114893e86b3482a09fbc2ea83e5f2 data/minecraft/tags/block/mineable/pickaxe.json
+0e8631b979382b3eac05b54bde2ca0aad096af7c data/minecraft/tags/block/needs_diamond_tool.json
+29da4e64c430a817daee14d4e70e3753060b5cb9 data/minecraft/tags/block/walls.json

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "O": {
+      "item": "minecraft:gold_block"
+    },
+    "V": {
+      "item": "lotrmod:mithril_bar_block"
+    }
+  },
+  "pattern": [
+    "OOO",
+    "OVO",
+    "OOO"
+  ],
+  "result": {
+    "count": 1,
+    "id": "lotrmod:the_one_ring"
+  }
+}

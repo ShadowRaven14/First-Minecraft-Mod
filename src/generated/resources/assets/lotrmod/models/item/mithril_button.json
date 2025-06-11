@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "lotrmod:block/mithril_ingot_block"
+  }
+}

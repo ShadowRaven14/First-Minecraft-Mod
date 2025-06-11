@@ -6,10 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.pogrebniak.lotrmod.LotrMod;
-import net.pogrebniak.lotrmod.item.custom.DetectorCrystal;
-import net.pogrebniak.lotrmod.item.custom.DvarvenCoal;
-import net.pogrebniak.lotrmod.item.custom.Lembas;
-import net.pogrebniak.lotrmod.item.custom.DetectorMetal;
+import net.pogrebniak.lotrmod.item.custom.*;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -32,6 +29,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> DETECTOR_CRYSTAL = ITEMS.register("detector_crystal",
             ()-> new DetectorCrystal(new Item.Properties().durability(400)));
+
+    public static final RegistryObject<Item> THE_ONE_RING = ITEMS.register("the_one_ring",
+            ()-> new The_One_Ring(new Item.Properties()));
+
 
     public static final RegistryObject<Item> LEMBAS = ITEMS.register("lembas",
             ()-> new Lembas(new Item.Properties().food(Lembas.LEMBAS)));

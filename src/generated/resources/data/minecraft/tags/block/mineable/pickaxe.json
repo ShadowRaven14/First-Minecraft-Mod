@@ -7,6 +7,16 @@
     "lotrmod:mithril_ore",
     "lotrmod:mithril_ore_deepslate",
     "lotrmod:mithril_ore_nether",
-    "lotrmod:mithril_ore_end_stone"
+    "lotrmod:mithril_ore_end_stone",
+    "lotrmod:mithril_block",
+    "lotrmod:mithril_slab",
+    "lotrmod:mithril_stairs",
+    "lotrmod:mithril_door",
+    "lotrmod:mithril_trapdoor",
+    "lotrmod:mithril_fence_gate",
+    "lotrmod:mithril_fence",
+    "lotrmod:mithril_wall",
+    "lotrmod:mithril_pressure_plate",
+    "lotrmod:mithril_button"
   ]
 }

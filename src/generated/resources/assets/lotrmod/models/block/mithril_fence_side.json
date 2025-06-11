@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "texture": "lotrmod:block/mithril_ingot_block"
+  }
+}

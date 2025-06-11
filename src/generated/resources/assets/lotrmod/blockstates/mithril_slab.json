@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lotrmod:block/mithril_slab"
+    },
+    "type=double": {
+      "model": "lotrmod:block/mithril_ingot_block"
+    },
+    "type=top": {
+      "model": "lotrmod:block/mithril_slab_top"
+    }
+  }
+}

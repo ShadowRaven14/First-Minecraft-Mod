@@ -33,23 +33,63 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.MITHRIL_ORE.get(),
                         ModBlocks.MITHRIL_ORE_DEEPSLATE.get(),
                         ModBlocks.MITHRIL_ORE_NETHER.get(),
-                        ModBlocks.MITHRIL_ORE_END_STONE.get());
+                        ModBlocks.MITHRIL_ORE_END_STONE.get(),
+                        ModBlocks.MITHRIL_LAMP.get(),
 
-        this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
+                        ModBlocks.MITHRIL_SLAB.get(),
+                        ModBlocks.MITHRIL_STAIRS.get(),
+
+                        ModBlocks.MITHRIL_DOOR.get(),
+                        ModBlocks.MITHRIL_TRAPDOOR.get(),
+
+                        ModBlocks.MITHRIL_FENCE_GATE.get(),
+                        ModBlocks.MITHRIL_FENCE.get(),
+                        ModBlocks.MITHRIL_WALL.get(),
+
+                        ModBlocks.MITHRIL_PRESSURE_PLATE.get(),
+                        ModBlocks.MITHRIL_BUTTON.get());
+
+
+        tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.MITHRIL_ORE.get());
-        this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
+        tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.MITHRIL_INGOT_BLOCK.get());
-        this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
+        tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.MITHRIL_BAR_BLOCK.get());
-        this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
+        tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.MITHRIL_ORE_DEEPSLATE.get());
-        this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
+        tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.MITHRIL_ORE_END_STONE.get());
-        this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
+        tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.MITHRIL_ORE_NETHER.get());
-        this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
+        tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.MITHRIL_RAW_BLOCK.get());
 
+        tag(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.MITHRIL_SLAB.get());
+        tag(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.MITHRIL_STAIRS.get());
+
+        tag(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.MITHRIL_BUTTON.get());
+        tag(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.MITHRIL_PRESSURE_PLATE.get());
+
+        tag(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.MITHRIL_FENCE.get());
+        tag(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.MITHRIL_FENCE_GATE.get());
+        tag(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.MITHRIL_WALL.get());
+
+        tag(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.MITHRIL_DOOR.get());
+        tag(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.MITHRIL_TRAPDOOR.get());
+
+        tag(BlockTags.FENCES).add(ModBlocks.MITHRIL_FENCE.get());
+        tag(BlockTags.FENCE_GATES).add(ModBlocks.MITHRIL_FENCE_GATE.get());
+        tag(BlockTags.WALLS).add(ModBlocks.MITHRIL_WALL.get());
 
 
 

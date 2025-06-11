@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "lotrmod:block/mithril_ingot_block"
+  }
+}

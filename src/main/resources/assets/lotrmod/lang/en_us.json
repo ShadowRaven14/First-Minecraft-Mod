@@ -25,5 +25,24 @@
   "item.lotrmod.dwarven_coal": "Dwarven Magma Coal",
   "tooltip.lotrmod.dwarven_coal.tooltip": "It burns in the furnaces all day long",
 
+  "item.lotrmod.the_one_ring": "The One Ring",
+  "tooltip.lotrmod.the_one_ring.tooltip": "One ring to rule them all",
+
+  "block.lotrmod.mithril_stairs": "Mithril Stairs",
+  "block.lotrmod.mithril_slab": "Mithril Slab",
+
+  "block.lotrmod.mithril_fence": "Mithril Fence",
+  "block.lotrmod.mithril_fence_gate": "Mithril Fence Gate",
+  "block.lotrmod.mithril_wall": "Mithril Wall",
+
+  "block.lotrmod.mithril_pressure_plate": "Mithril Pressure Plate",
+  "block.lotrmod.mithril_button": "Mithril Button",
+
+  "block.lotrmod.mithril_door": "Mithril Door",
+  "block.lotrmod.mithril_trapdoor": "Mithril Trapdoor",
+
+  "block.lotrmod.mithril_lamp": "Mithril Lamp",
+
+
   "creativetab.lotr_tab": "LOTR tab"
 }
