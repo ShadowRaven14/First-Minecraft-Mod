@@ -1,15 +1,20 @@
-// 1.21.1	2025-06-11T22:56:29.4856962	Item Models: lotrmod
+// 1.21.1	2025-06-12T11:30:01.2276358	Item Models: lotrmod
 696b3bdfe2b3bf02d13604932513f0fe115e6a67 assets/lotrmod/models/item/chisel.json
 9b193523ba1e535d89af18bf67d79db9625674ae assets/lotrmod/models/item/detector_crystal.json
 66d6370641af41bf017714dba57deed693579a01 assets/lotrmod/models/item/detector_metal.json
 f3d78394af5524eebe573f478ef2377fa32fdfde assets/lotrmod/models/item/dwarven_coal.json
 b1c5decd460380ca0514a0a69661f5aaa6adf9ba assets/lotrmod/models/item/energy_circuit_ingot.json
 60195f48ccbc0c9bcb6963f35721c9412ba358b0 assets/lotrmod/models/item/lembas.json
+55c13fd141380b26a1cb2f59f6e99eaca1550c0b assets/lotrmod/models/item/mithril_axe.json
 277ecce46a756eb52ffe83880622ce2f6385c08a assets/lotrmod/models/item/mithril_bar.json
 1bdecc54780ffdd3407129f2ff7df1771dbd2117 assets/lotrmod/models/item/mithril_button.json
 ba960505b98ca03736c2aa6841504d28e3a347e6 assets/lotrmod/models/item/mithril_door.json
 a17b5f3effacaf1b1d518751011dab3a5328c5e2 assets/lotrmod/models/item/mithril_fence.json
+e44a98ac8836b3de70b40c89d517cee2c3dc0560 assets/lotrmod/models/item/mithril_hoe.json
 79e29c85db150fe0d4e6bdf01461deb409da86dc assets/lotrmod/models/item/mithril_ingot.json
+cf27cfcb35e3c3da73263af842d31c3b0b3f58ff assets/lotrmod/models/item/mithril_pickaxe.json
 083aa5cf7d741a402317d3ecae323fb9d3bc18e0 assets/lotrmod/models/item/mithril_raw.json
+17ef0a6e659b6ad581639b7b54bd3673a98022ad assets/lotrmod/models/item/mithril_shovel.json
+df133c0f2959114e5d8df777ca252f4bb0f88642 assets/lotrmod/models/item/mithril_sword.json
 5cbe98246b98793239e090775324bc0ee35ff4f3 assets/lotrmod/models/item/mithril_wall.json
 640bec084e2fa1452ed3929c6a60754164094e46 assets/lotrmod/models/item/the_one_ring.json

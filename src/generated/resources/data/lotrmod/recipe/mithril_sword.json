@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "minecraft:stick"
+    },
+    "M": {
+      "item": "lotrmod:mithril_ingot"
+    }
+  },
+  "pattern": [
+    "M",
+    "M",
+    "I"
+  ],
+  "result": {
+    "count": 1,
+    "id": "lotrmod:mithril_sword"
+  }
+}

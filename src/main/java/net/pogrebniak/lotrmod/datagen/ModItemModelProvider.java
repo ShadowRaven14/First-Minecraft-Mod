@@ -46,6 +46,17 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleBlockItem(ModBlocks.MITHRIL_DOOR);
 
+        handheldItem(ModItems.MITHRIL_SHOVEL);
+        handheldItem(ModItems.MITHRIL_PICKAXE);
+        handheldItem(ModItems.MITHRIL_AXE);
+        handheldItem(ModItems.MITHRIL_HOE);
+        handheldItem(ModItems.MITHRIL_SWORD);
+
+    }
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                ResourceLocation.parse("item/handheld")).texture("layer0",
+                ResourceLocation.fromNamespaceAndPath(LotrMod.MOD_ID,"item/" + item.getId().getPath()));
     }
 
 

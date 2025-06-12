@@ -11,17 +11,20 @@ import net.pogrebniak.lotrmod.LotrMod;
 
 public class ModTags {
     public static class Blocks {
-        public static TagKey<Block> DETECTOR_METAL_VALUABLES = tag("detector_metal_valuables");
-        public static TagKey<Block> DETECTOR_CRYSTAL_VALUABLES = tag("detector_crystal_valuables");
+        public static final TagKey<Block> NEEDS_MITHRIL_TOOL = createTag("needs_mithril_tool");
+        public static  final TagKey<Block> INCORRECT_FOR_MITHRIL_TOOL = createTag("incorrect_for_mithril_tool");
+        public static TagKey<Block> DETECTOR_METAL_VALUABLES = createTag("detector_metal_valuables");
+        public static TagKey<Block> DETECTOR_CRYSTAL_VALUABLES = createTag("detector_crystal_valuables");
 
-        private static TagKey<Block> tag (String name) {
-            return BlockTags.create(ResourceLocation.tryBuild(LotrMod.MOD_ID, name));
+        private static TagKey<Block> createTag (String name) {
+            return BlockTags.create(ResourceLocation.fromNamespaceAndPath(LotrMod.MOD_ID, name));
         }
     }
 
     public static class Items {
-        private static TagKey<Item> tag (String name) {
-            return ItemTags.create(ResourceLocation.tryBuild(LotrMod.MOD_ID, name));
+        public static final TagKey<Item> TRANSFORMABLE_ITEMS = createTag("transformable_items");
+        private static TagKey<Item> createTag (String name) {
+            return ItemTags.create(ResourceLocation.fromNamespaceAndPath(LotrMod.MOD_ID, name));
         }
     }
 }

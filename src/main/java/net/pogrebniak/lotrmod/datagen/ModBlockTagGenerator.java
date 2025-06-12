@@ -92,6 +92,15 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         tag(BlockTags.FENCE_GATES).add(ModBlocks.MITHRIL_FENCE_GATE.get());
         tag(BlockTags.WALLS).add(ModBlocks.MITHRIL_WALL.get());
 
+        tag(ModTags.Blocks.NEEDS_MITHRIL_TOOL)
+                .add(ModBlocks.MITHRIL_BAR_BLOCK.get())
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
+
+        tag(ModTags.Blocks.INCORRECT_FOR_MITHRIL_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_DIAMOND_TOOL)
+                .remove(ModTags.Blocks.NEEDS_MITHRIL_TOOL);
+
+
 
 
 

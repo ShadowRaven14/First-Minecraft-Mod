@@ -53,6 +53,14 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.THE_ONE_RING.get());
                         pOutput.accept(ModItems.ENERGY_CIRCUIT_INGOT.get());
                         pOutput.accept(ModItems.CHISEL.get());
+
+                        pOutput.accept(ModItems.MITHRIL_SWORD.get());
+                        pOutput.accept(ModItems.MITHRIL_SHOVEL.get());
+                        pOutput.accept(ModItems.MITHRIL_AXE.get());
+                        pOutput.accept(ModItems.MITHRIL_PICKAXE.get());
+                        pOutput.accept(ModItems.MITHRIL_HOE.get());
+
+
                     })
                     .build());
 

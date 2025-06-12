@@ -9,6 +9,12 @@
   "item.lotrmod.detector_crystal": "Ore Detector",
   "tooltip.lotrmod.detector_crystal.tooltip": "Finds valuables underground",
 
+  "item.lotrmod.mithril_sword": "Mithril Sword",
+  "item.lotrmod.mithril_shovel": "Mithril Shovel",
+  "item.lotrmod.mithril_pickaxe": "Mithril Pickaxe",
+  "item.lotrmod.mithril_axe": "Mithril Axe",
+  "item.lotrmod.mithril_hoe": "Mithril Hoe",
+
   "block.lotrmod.mithril_raw_block": "Block of Raw Mithril ",
   "block.lotrmod.mithril_ingot_block": "Block of Ingot Mithril ",
   "block.lotrmod.mithril_bar_block": "Block of Bar Mithril ",

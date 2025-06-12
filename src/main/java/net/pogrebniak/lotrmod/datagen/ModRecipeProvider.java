@@ -128,6 +128,53 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('V', ModBlocks.MITHRIL_BAR_BLOCK.get())
                 .unlockedBy(getHasName(ModItems.MITHRIL_BAR.get()), has(ModItems.MITHRIL_BAR.get())).save(pRecipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,  ModItems.MITHRIL_SWORD.get())
+                .pattern("M")
+                .pattern("M")
+                .pattern("I")
+                .define('I', Items.STICK)
+                .define('M', ModItems.MITHRIL_INGOT.get())
+                .unlockedBy(getHasName(ModItems.MITHRIL_INGOT.get()), has(ModItems.MITHRIL_INGOT.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,  ModItems.MITHRIL_PICKAXE.get())
+                .pattern("MMM")
+                .pattern(" I ")
+                .pattern(" I ")
+                .define('I', Items.STICK)
+                .define('M', ModItems.MITHRIL_INGOT.get())
+                .unlockedBy(getHasName(ModItems.MITHRIL_INGOT.get()), has(ModItems.MITHRIL_INGOT.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,  ModItems.MITHRIL_SHOVEL.get())
+                .pattern("M")
+                .pattern("I")
+                .pattern("I")
+                .define('I', Items.STICK)
+                .define('M', ModItems.MITHRIL_INGOT.get())
+                .unlockedBy(getHasName(ModItems.MITHRIL_INGOT.get()), has(ModItems.MITHRIL_INGOT.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,  ModItems.MITHRIL_AXE.get())
+                .pattern("MM")
+                .pattern("MI")
+                .pattern(" I")
+                .define('I', Items.STICK)
+                .define('M', ModItems.MITHRIL_INGOT.get())
+                .unlockedBy(getHasName(ModItems.MITHRIL_INGOT.get()), has(ModItems.MITHRIL_INGOT.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,  ModItems.MITHRIL_HOE.get())
+                .pattern("MM")
+                .pattern(" I")
+                .pattern(" I")
+                .define('I', Items.STICK)
+                .define('M', ModItems.MITHRIL_INGOT.get())
+                .unlockedBy(getHasName(ModItems.MITHRIL_INGOT.get()), has(ModItems.MITHRIL_INGOT.get())).save(pRecipeOutput);
+
+
+
+
+
+
+
+
         stairBuilder(ModBlocks.MITHRIL_STAIRS.get(), Ingredient.of(ModItems.MITHRIL_INGOT.get())).group("mithril")
                 .unlockedBy(getHasName(ModItems.MITHRIL_INGOT.get()), has(ModItems.MITHRIL_INGOT.get())).save(pRecipeOutput);
 

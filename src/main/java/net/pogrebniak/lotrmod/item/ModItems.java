@@ -1,6 +1,6 @@
 package net.pogrebniak.lotrmod.item;
 
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -35,6 +35,35 @@ public class ModItems {
 
     public static final RegistryObject<Item> CHISEL = ITEMS.register("chisel",
             () -> new ChiselItem(new Item.Properties().durability(32)));
+
+    public static final RegistryObject<Item> MITHRIL_SWORD = ITEMS.register("mithril_sword",
+            () -> new SwordItem(ModToolTiers.MITHRIL, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.MITHRIL, 3, -2.4f))));
+
+    public static final RegistryObject<Item> MITHRIL_PICKAXE = ITEMS.register("mithril_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.MITHRIL, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.MITHRIL, 1, -2.8f))));
+
+    public static final RegistryObject<Item> MITHRIL_SHOVEL = ITEMS.register("mithril_shovel",
+            () -> new ShovelItem(ModToolTiers.MITHRIL, new Item.Properties()
+                    .attributes(ShovelItem.createAttributes(ModToolTiers.MITHRIL, 1.5f, -3.0f))));
+
+    public static final RegistryObject<Item> MITHRIL_AXE = ITEMS.register("mithril_axe",
+            () -> new AxeItem(ModToolTiers.MITHRIL, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTiers.MITHRIL, 6, -3.2f))));
+
+    public static final RegistryObject<Item> MITHRIL_HOE = ITEMS.register("mithril_hoe",
+            () -> new HoeItem(ModToolTiers.MITHRIL, new Item.Properties()
+                    .attributes(HoeItem.createAttributes(ModToolTiers.MITHRIL, 0, -3.0f))));
+
+
+
+
+
+
+
+
+
 
 
     public static final RegistryObject<Item> LEMBAS = ITEMS.register("lembas",
