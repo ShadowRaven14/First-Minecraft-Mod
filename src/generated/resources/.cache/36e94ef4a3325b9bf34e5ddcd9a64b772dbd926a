@@ -1,4 +1,4 @@
-// 1.21.1	2025-06-12T15:49:50.7725588	Block States: lotrmod
+// 1.21.1	2025-06-12T17:47:34.1676876	Block States: lotrmod
 6c7d3ccccf88138237df7ac0a1650b22bf3e149f assets/lotrmod/blockstates/mithril_bar_block.json
 e8b9d86c9fb536916c1395bd3c27e886062de15a assets/lotrmod/blockstates/mithril_button.json
 144b557f56c450906ef0feab6a6c78da6ea5687d assets/lotrmod/blockstates/mithril_door.json
@@ -57,6 +57,8 @@ f91459f052ac6c31b7779dd6c500d8e5ed3d6315 assets/lotrmod/models/block/mithril_wal
 2b54ba53e63f27e06c7445b5160fca6cddcb3268 assets/lotrmod/models/block/mithril_wall_side_tall.json
 2975f0f3cb7a829732fea5e815c692d4b2eea721 assets/lotrmod/models/block/sound_block.json
 00b514279eefaead16238dfe12d837a4858221f2 assets/lotrmod/models/item/mithril_bar_block.json
+35978db984e829711844f96c399fe32c0ba286bc assets/lotrmod/models/item/mithril_door.json
+83ccc3542cee420d2b9e3a71d905a3a40cffdbd2 assets/lotrmod/models/item/mithril_fence_gate.json
 2036aa5aa402f8f27cfd0a065a1ceeb9ea957909 assets/lotrmod/models/item/mithril_ingot_block.json
 bde817d733dbdad240f99ff2af5ca9c203ea54b4 assets/lotrmod/models/item/mithril_lamp.json
 aed19f991bedce2233b706d9d350d7af7f92d6cd assets/lotrmod/models/item/mithril_ore.json
@@ -65,5 +67,7 @@ aed19f991bedce2233b706d9d350d7af7f92d6cd assets/lotrmod/models/item/mithril_ore.
 a5957702212736a2dab2178f5c7ad521252ad6f5 assets/lotrmod/models/item/mithril_ore_nether.json
 62dffc28c2ab853055ad978b3c76b7fce4bdb6a9 assets/lotrmod/models/item/mithril_pressure_plate.json
 725177d41ac4191e80b8fce474842cf6f5b58acb assets/lotrmod/models/item/mithril_raw_block.json
+3f51a1d9d52760ccf09b42ce9d79925921628ed6 assets/lotrmod/models/item/mithril_slab.json
+24d88a518c3286339357d470a8bfa7bb72de7d90 assets/lotrmod/models/item/mithril_stairs.json
 0761a020018910c3df5b63409b1570d86a9b1716 assets/lotrmod/models/item/mithril_trapdoor.json
 2a77aa902202b535cdb6355cebc10a41df8ba6df assets/lotrmod/models/item/sound_block.json

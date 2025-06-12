@@ -54,9 +54,11 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.THE_ONE_RING.get());
 
                         //LEGENDARY
+                        pOutput.accept(ModItems.SAURON_MACE.get());
                         pOutput.accept(ModItems.CHISEL.get());
                         pOutput.accept(ModItems.DETECTOR_METAL.get());
                         pOutput.accept(ModItems.DETECTOR_CRYSTAL.get());
+                        pOutput.accept(ModItems.HORN_OF_COURAGE.get());
 
                         //FOOD
                         pOutput.accept(ModItems.LEMBAS.get());

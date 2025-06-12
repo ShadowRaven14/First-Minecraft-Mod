@@ -1,10 +1,12 @@
-// 1.21.1	2025-06-12T13:57:00.6293393	Item Models: lotrmod
+// 1.21.1	2025-06-12T20:05:20.7090766	Item Models: lotrmod
 9b193523ba1e535d89af18bf67d79db9625674ae assets/lotrmod/models/item/detector_crystal.json
 66d6370641af41bf017714dba57deed693579a01 assets/lotrmod/models/item/detector_metal.json
 f3d78394af5524eebe573f478ef2377fa32fdfde assets/lotrmod/models/item/dwarven_coal.json
 b1c5decd460380ca0514a0a69661f5aaa6adf9ba assets/lotrmod/models/item/energy_circuit_ingot.json
 e6ecaa3a61c674362cf3b4a380e492a5a0ae7d0f assets/lotrmod/models/item/food_lembas.json
 608daebe3fdfe3fbeacc058a08b425e418c409d7 assets/lotrmod/models/item/legendary_chisel.json
+a70df50f28799fcfcd4ee2ea6a6284dcad4022c6 assets/lotrmod/models/item/legendary_horn_of_courage.json
+b8690a8adb06c4b36b0360e4cce89f26b0d1f107 assets/lotrmod/models/item/legendary_sauron_mace.json
 55c13fd141380b26a1cb2f59f6e99eaca1550c0b assets/lotrmod/models/item/mithril_axe.json
 277ecce46a756eb52ffe83880622ce2f6385c08a assets/lotrmod/models/item/mithril_bar.json
 1bdecc54780ffdd3407129f2ff7df1771dbd2117 assets/lotrmod/models/item/mithril_button.json

@@ -36,6 +36,10 @@
   "item.lotrmod.ring_sauron": "The One Ring",
   "tooltip.lotrmod.ring_sauron.tooltip": "One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them.",
 
+  "item.lotrmod.legendary_sauron_mace": "The Sauron Mace",
+
+  "item.lotrmod.legendary_horn_of_courage": "Horn of Courage",
+
   "item.lotrmod.legendary_chisel": "Chisel",
   "tooltip.lotrmod.legendary_chisel.tooltip": "Make blocks more beauty",
   "item.lotrmod.detector_metal": "Metal Detector",

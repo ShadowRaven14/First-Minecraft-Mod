@@ -44,10 +44,16 @@ public class ModItems {
 
     //RINGS
     public static final RegistryObject<Item> THE_ONE_RING = ITEMS.register("ring_sauron",
-            ()-> new TheOneRing(new Item.Properties().fireResistant().stacksTo(1)
-                    .rarity(Items.ENCHANTED_GOLDEN_APPLE.getDefaultInstance().getRarity())));
+            ()-> new TheOneRing(new Item.Properties().fireResistant()));
 
     //LEGENDARY
+    public static final RegistryObject<Item> SAURON_MACE = ITEMS.register("legendary_sauron_mace",
+            () -> new SauronMace(ModToolTiers.MITHRIL, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.MITHRIL, 6, -2.4f))));
+
+    public static final RegistryObject<Item> HORN_OF_COURAGE = ITEMS.register("legendary_horn_of_courage",
+            ()-> new HornOfCourage(new Item.Properties()));
+
     public static final RegistryObject<Item> CHISEL = ITEMS.register("legendary_chisel",
             () -> new ChiselItem(new Item.Properties().durability(32)
                     .rarity(Items.GOLDEN_APPLE.getDefaultInstance().getRarity())));

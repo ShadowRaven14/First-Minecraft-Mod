@@ -42,10 +42,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.THE_ONE_RING.get());
 
         //LEGENDARY
+        handleItem(ModItems.SAURON_MACE);
+
         basicItem(ModItems.CHISEL.get());
         basicItem(ModItems.DETECTOR_CRYSTAL.get());
         basicItem(ModItems.DETECTOR_METAL.get());
-
+        basicItem(ModItems.HORN_OF_COURAGE.get());
         //FOOD
         basicItem(ModItems.LEMBAS.get());
 

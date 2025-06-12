@@ -168,11 +168,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('M', ModItems.MITHRIL_INGOT.get())
                 .unlockedBy(getHasName(ModItems.MITHRIL_INGOT.get()), has(ModItems.MITHRIL_INGOT.get())).save(pRecipeOutput);
 
-
-
-
-
-
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,  ModItems.SAURON_MACE.get())
+                .pattern("MM")
+                .pattern(" I")
+                .pattern(" I")
+                .define('I', Items.STICK)
+                .define('M', ModItems.MITHRIL_INGOT.get())
+                .unlockedBy(getHasName(ModItems.MITHRIL_INGOT.get()), has(ModItems.MITHRIL_INGOT.get())).save(pRecipeOutput);
 
 
         stairBuilder(ModBlocks.MITHRIL_STAIRS.get(), Ingredient.of(ModItems.MITHRIL_INGOT.get())).group("mithril")
