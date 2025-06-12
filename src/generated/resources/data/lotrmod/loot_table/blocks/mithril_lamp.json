@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "lotrmod:mithril_block"
+          "name": "lotrmod:mithril_lamp"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "lotrmod:blocks/mithril_block"
+  "random_sequence": "lotrmod:blocks/mithril_lamp"
 }

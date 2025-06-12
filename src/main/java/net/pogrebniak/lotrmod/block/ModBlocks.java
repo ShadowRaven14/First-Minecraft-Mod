@@ -88,7 +88,7 @@ public class ModBlocks {
             () -> new TrapDoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(3f)
                             .requiresCorrectToolForDrops().noOcclusion()));
 
-    public static final RegistryObject<Block> MITHRIL_LAMP = registerBlock("mithril_block",
+    public static final RegistryObject<Block> MITHRIL_LAMP = registerBlock("mithril_lamp",
             () -> new MithrilLamp(BlockBehaviour.Properties.of().strength(3f)
                     .lightLevel(state -> state.getValue(MithrilLamp.CLICKED) ? 15 : 0)));
 

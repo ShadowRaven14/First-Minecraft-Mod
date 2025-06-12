@@ -64,7 +64,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.MITHRIL_ORE_NETHER.get());
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.MITHRIL_RAW_BLOCK.get());
-
+        tag(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.MITHRIL_LAMP.get());
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.MITHRIL_SLAB.get());
         tag(BlockTags.NEEDS_DIAMOND_TOOL)

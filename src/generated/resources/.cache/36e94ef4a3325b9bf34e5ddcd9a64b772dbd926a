@@ -1,11 +1,11 @@
-// 1.21.1	2025-06-11T22:27:46.1060029	Block States: lotrmod
+// 1.21.1	2025-06-12T09:14:11.5002845	Block States: lotrmod
 6c7d3ccccf88138237df7ac0a1650b22bf3e149f assets/lotrmod/blockstates/mithril_bar_block.json
-368b6e42e6fb5b90bb1832d44c085f29a3cf6912 assets/lotrmod/blockstates/mithril_block.json
 e8b9d86c9fb536916c1395bd3c27e886062de15a assets/lotrmod/blockstates/mithril_button.json
 144b557f56c450906ef0feab6a6c78da6ea5687d assets/lotrmod/blockstates/mithril_door.json
 f34eba62b27b9ca4abc107f2b6f7ca4ee334d3be assets/lotrmod/blockstates/mithril_fence.json
 eef4afaf0f0fd50f6b6d3dd93bdd05978eda80e3 assets/lotrmod/blockstates/mithril_fence_gate.json
 bdc146deee27ba92f7adeb18201334886dda6b28 assets/lotrmod/blockstates/mithril_ingot_block.json
+368b6e42e6fb5b90bb1832d44c085f29a3cf6912 assets/lotrmod/blockstates/mithril_lamp.json
 afb8b50b79d5dfc623c8252273243c46fdcbb8ca assets/lotrmod/blockstates/mithril_ore.json
 7e9f5c43d7deec439035f59d847cc89a739dcf67 assets/lotrmod/blockstates/mithril_ore_deepslate.json
 563ff90a0d518e9df6adc6726897315729d72107 assets/lotrmod/blockstates/mithril_ore_end_stone.json
@@ -57,11 +57,11 @@ f91459f052ac6c31b7779dd6c500d8e5ed3d6315 assets/lotrmod/models/block/mithril_wal
 2b54ba53e63f27e06c7445b5160fca6cddcb3268 assets/lotrmod/models/block/mithril_wall_side_tall.json
 2975f0f3cb7a829732fea5e815c692d4b2eea721 assets/lotrmod/models/block/sound_block.json
 00b514279eefaead16238dfe12d837a4858221f2 assets/lotrmod/models/item/mithril_bar_block.json
-bde817d733dbdad240f99ff2af5ca9c203ea54b4 assets/lotrmod/models/item/mithril_block.json
 afb157a304d971f3fc0c27944400c9a5a636c333 assets/lotrmod/models/item/mithril_door.json
 f62e2337cf9e6c81ed7bdedd7697384885e808d7 assets/lotrmod/models/item/mithril_fence.json
 c2a4f2336378c38239dbf24c859f01608cd65a6e assets/lotrmod/models/item/mithril_fence_gate.json
 2036aa5aa402f8f27cfd0a065a1ceeb9ea957909 assets/lotrmod/models/item/mithril_ingot_block.json
+bde817d733dbdad240f99ff2af5ca9c203ea54b4 assets/lotrmod/models/item/mithril_lamp.json
 aed19f991bedce2233b706d9d350d7af7f92d6cd assets/lotrmod/models/item/mithril_ore.json
 28f7d028cf0fc71a4f5e06688aa0053fe798585f assets/lotrmod/models/item/mithril_ore_deepslate.json
 89153925cec63af3452522620a69fee22a84d5ba assets/lotrmod/models/item/mithril_ore_end_stone.json
