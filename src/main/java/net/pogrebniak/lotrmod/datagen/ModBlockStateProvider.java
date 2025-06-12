@@ -34,24 +34,20 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         stairsBlock(ModBlocks.MITHRIL_STAIRS.get(), blockTexture(ModBlocks.MITHRIL_INGOT_BLOCK.get()));
         slabBlock(ModBlocks.MITHRIL_SLAB.get(), blockTexture(ModBlocks.MITHRIL_INGOT_BLOCK.get()), blockTexture(ModBlocks.MITHRIL_INGOT_BLOCK.get()));
-
         pressurePlateBlock(ModBlocks.MITHRIL_PRESSURE_PLATE.get(), blockTexture(ModBlocks.MITHRIL_INGOT_BLOCK.get()));
         buttonBlock(ModBlocks.MITHRIL_BUTTON.get(), blockTexture(ModBlocks.MITHRIL_INGOT_BLOCK.get()));
-
         wallBlock(ModBlocks.MITHRIL_WALL.get(), blockTexture(ModBlocks.MITHRIL_INGOT_BLOCK.get()));
         fenceGateBlock(ModBlocks.MITHRIL_FENCE_GATE.get(), blockTexture(ModBlocks.MITHRIL_INGOT_BLOCK.get()));
         fenceBlock(ModBlocks.MITHRIL_FENCE.get(), blockTexture(ModBlocks.MITHRIL_INGOT_BLOCK.get()));
 
         doorBlockWithRenderType(ModBlocks.MITHRIL_DOOR.get(), modLoc("block/mithril_door_bottom"), modLoc("block/mithril_door_top"), "cutout");
-        trapdoorBlockWithRenderType(ModBlocks.MITHRIL_TRAPDOOR.get(), modLoc("block/mithril_trapdoor"), true , "cutout");
-
-
+        trapdoorBlockWithRenderType(ModBlocks.MITHRIL_TRAPDOOR.get(), modLoc("block/mithril_trapdoor"), true, "cutout");
 
         blockItem(ModBlocks.MITHRIL_SLAB);
         blockItem(ModBlocks.MITHRIL_STAIRS);
-        blockItem(ModBlocks.MITHRIL_WALL);
+        //blockItem(ModBlocks.MITHRIL_WALL);
         blockItem(ModBlocks.MITHRIL_FENCE_GATE);
-        blockItem(ModBlocks.MITHRIL_FENCE);
+        //blockItem(ModBlocks.MITHRIL_FENCE);
         blockItem(ModBlocks.MITHRIL_DOOR);
         blockItem(ModBlocks.MITHRIL_TRAPDOOR, "_bottom");
         blockItem(ModBlocks.MITHRIL_PRESSURE_PLATE);
@@ -77,16 +73,17 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
         simpleBlockWithItem(blockRegistryObject.get(), cubeAll(blockRegistryObject.get()));
-
     }
 
     private void blockItem(RegistryObject<? extends Block> blockRegistryObject) {
-        simpleBlockItem(blockRegistryObject.get(), new ModelFile.UncheckedModelFile("tutorialmod:block/" +
-                ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath()));
+        simpleBlockItem(blockRegistryObject.get(), new ModelFile.UncheckedModelFile(
+                LotrMod.MOD_ID + ":block/"
+                        + ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath()));
     }
 
     private void blockItem(RegistryObject<? extends Block> blockRegistryObject, String appendix) {
-        simpleBlockItem(blockRegistryObject.get(), new ModelFile.UncheckedModelFile("tutorialmod:block/" +
-                ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath() + appendix));
+        simpleBlockItem(blockRegistryObject.get(), new ModelFile.UncheckedModelFile(
+                LotrMod.MOD_ID + ":block/"
+                        + ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath() + appendix));
     }
 }

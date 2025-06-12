@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "lotrmod:item/mithril_door"
-  }
+  "parent": "lotrmod:block/mithril_door"
 }

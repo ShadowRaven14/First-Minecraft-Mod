@@ -26,6 +26,7 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, LotrMod.MOD_ID);
 
+    //MITHRIL
     public static final RegistryObject<Block> MITHRIL_BAR_BLOCK = registerBlock("mithril_bar_block",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.ANCIENT_DEBRIS).requiresCorrectToolForDrops()
                     .sound(SoundType.AMETHYST).lightLevel(state -> 12)));
@@ -57,10 +58,7 @@ public class ModBlocks {
                     BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_ORE).requiresCorrectToolForDrops()
                                 .sound(SoundType.NETHERRACK).lightLevel(state -> 9)));
 
-    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
-            () -> new SoundBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops()
-                    .sound(SoundType.AMETHYST).lightLevel(state -> 9)));
-
+    //ELVEN
     public static final RegistryObject<StairBlock> MITHRIL_STAIRS = registerBlock("mithril_stairs",
             () -> new StairBlock(ModBlocks.MITHRIL_INGOT_BLOCK.get().defaultBlockState(),
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
@@ -70,20 +68,24 @@ public class ModBlocks {
 
     public static final RegistryObject<PressurePlateBlock> MITHRIL_PRESSURE_PLATE = registerBlock("mithril_pressure_plate",
             () -> new PressurePlateBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+
     public static final RegistryObject<ButtonBlock> MITHRIL_BUTTON = registerBlock("mithril_button",
             () -> new ButtonBlock(BlockSetType.IRON, 1, BlockBehaviour.Properties.of().strength(3f)
                     .requiresCorrectToolForDrops().noCollission()));
 
     public static final RegistryObject<FenceBlock> MITHRIL_FENCE = registerBlock("mithril_fence",
             () -> new FenceBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+
     public static final RegistryObject<FenceGateBlock> MITHRIL_FENCE_GATE = registerBlock("mithril_fence_gate",
             () -> new FenceGateBlock(WoodType.ACACIA, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+
     public static final RegistryObject<WallBlock> MITHRIL_WALL = registerBlock("mithril_wall",
             () -> new WallBlock(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<DoorBlock> MITHRIL_DOOR = registerBlock("mithril_door",
             () -> new DoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(3f)
                     .requiresCorrectToolForDrops().noOcclusion()));
+
     public static final RegistryObject<TrapDoorBlock> MITHRIL_TRAPDOOR = registerBlock("mithril_trapdoor",
             () -> new TrapDoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(3f)
                             .requiresCorrectToolForDrops().noOcclusion()));
@@ -92,18 +94,24 @@ public class ModBlocks {
             () -> new MithrilLamp(BlockBehaviour.Properties.of().strength(3f)
                     .lightLevel(state -> state.getValue(MithrilLamp.CLICKED) ? 15 : 0)));
 
+    //OTHER
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            () -> new SoundBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops()
+                    .sound(SoundType.AMETHYST).lightLevel(state -> 9)));
 
+
+    //REGISTER
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registryObjectItem(name, toReturn);
         return toReturn;
     }
 
-    private static <T extends Block>RegistryObject<Item> registryObjectItem(String name, RegistryObject<T> block) {
-        return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
-    }
-
+    //REGISTER
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
+    }
+    private static <T extends Block>RegistryObject<Item> registryObjectItem(String name, RegistryObject<T> block) {
+        return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
     }
 }

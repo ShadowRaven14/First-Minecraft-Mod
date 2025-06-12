@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "lotrmod:item/the_one_ring"
+    "layer0": "lotrmod:item/food_lembas"
   }
 }

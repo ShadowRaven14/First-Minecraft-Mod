@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "lotrmod:item/chisel"
+    "layer0": "lotrmod:item/legendary_chisel"
   }
 }

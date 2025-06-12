@@ -49,5 +49,5 @@ run
 # Files from Forge MDK
 forge*changelog.txt
 
-/run-data
+/run-data/logs
 *.gz

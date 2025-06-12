@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "lotrmod:the_one_ring"
+        "recipe": "lotrmod:ring_sauron"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "lotrmod:the_one_ring"
+      "lotrmod:ring_sauron"
     ]
   }
 }

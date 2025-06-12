@@ -3,12 +3,6 @@
   "item.lotrmod.mithril_ingot": "Mithril Ingot",
   "item.lotrmod.mithril_bar": "Mithril Bar",
 
-  "item.lotrmod.energy_circuit_ingot": "Energy Circuit Ingot",
-  "item.lotrmod.detector_metal": "Metal Detector",
-  "tooltip.lotrmod.detector_metal.tooltip": "Finds metals underground",
-  "item.lotrmod.detector_crystal": "Ore Detector",
-  "tooltip.lotrmod.detector_crystal.tooltip": "Finds valuables underground",
-
   "item.lotrmod.mithril_sword": "Mithril Sword",
   "item.lotrmod.mithril_shovel": "Mithril Shovel",
   "item.lotrmod.mithril_pickaxe": "Mithril Pickaxe",
@@ -23,32 +17,36 @@
   "block.lotrmod.mithril_ore_end_stone": "End Stone Mithril ore",
   "block.lotrmod.mithril_ore_nether": "Nether Mithril ore",
 
-  "block.lotrmod.sound_block": "Sound Block",
-
-  "item.lotrmod.lembas": "Elven Lembas",
-  "tooltip.lotrmod.lembas.tooltip": "Satisfies hunger for the whole day",
-
-  "item.lotrmod.dwarven_coal": "Dwarven Magma Coal",
-  "tooltip.lotrmod.dwarven_coal.tooltip": "It burns in the furnaces all day long",
-
-  "item.lotrmod.the_one_ring": "The One Ring",
-  "tooltip.lotrmod.the_one_ring.tooltip": "One ring to rule them all",
-
   "block.lotrmod.mithril_stairs": "Mithril Stairs",
   "block.lotrmod.mithril_slab": "Mithril Slab",
-
   "block.lotrmod.mithril_fence": "Mithril Fence",
   "block.lotrmod.mithril_fence_gate": "Mithril Fence Gate",
   "block.lotrmod.mithril_wall": "Mithril Wall",
-
   "block.lotrmod.mithril_pressure_plate": "Mithril Pressure Plate",
   "block.lotrmod.mithril_button": "Mithril Button",
-
   "block.lotrmod.mithril_door": "Mithril Door",
   "block.lotrmod.mithril_trapdoor": "Mithril Trapdoor",
-
   "block.lotrmod.mithril_lamp": "Mithril Lamp",
 
+  "item.lotrmod.food_lembas": "Elven Lembas",
+  "tooltip.lotrmod.food_lembas.tooltip": "Satisfies hunger for the whole day",
 
-  "creativetab.lotr_tab": "LOTR tab"
+  "tooltip.lotrmod.dwarven_coal.tooltip": "It burns in the furnaces all day long",
+
+  "item.lotrmod.ring_sauron": "The One Ring",
+  "tooltip.lotrmod.ring_sauron.tooltip": "One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them.",
+
+  "item.lotrmod.legendary_chisel": "Chisel",
+  "tooltip.lotrmod.legendary_chisel.tooltip": "Make blocks more beauty",
+  "item.lotrmod.detector_metal": "Metal Detector",
+  "tooltip.lotrmod.detector_metal.tooltip": "Finds metals underground",
+  "item.lotrmod.detector_crystal": "Ore Detector",
+  "tooltip.lotrmod.detector_crystal.tooltip": "Finds valuables underground",
+
+  "item.lotrmod.dwarven_coal": "Dwarven Magma Coal",
+  "item.lotrmod.energy_circuit_ingot": "Energy Circuit Ingot",
+
+  "block.lotrmod.sound_block": "Sound Block",
+
+  "creativetab.lotr_tab": "Lord of the Rings"
 }

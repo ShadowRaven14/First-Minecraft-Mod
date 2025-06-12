@@ -13,9 +13,6 @@ import net.pogrebniak.lotrmod.LotrMod;
 import net.pogrebniak.lotrmod.block.ModBlocks;
 import net.pogrebniak.lotrmod.item.ModItems;
 
-import static net.minecraft.resources.ResourceLocation.fromNamespaceAndPath;
-import static net.minecraft.resources.ResourceLocation.withDefaultNamespace;
-
 public class ModItemModelProvider extends ItemModelProvider {
     public ModItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
         super(output, LotrMod.MOD_ID, existingFileHelper);
@@ -23,42 +20,45 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+
+        //MITHRIL
         basicItem(ModItems.MITHRIL_RAW.get());
         basicItem(ModItems.MITHRIL_INGOT.get());
         basicItem(ModItems.MITHRIL_BAR.get());
 
-        basicItem(ModItems.DETECTOR_CRYSTAL.get());
-        basicItem(ModItems.DETECTOR_METAL.get());
+        handleItem(ModItems.MITHRIL_SHOVEL);
+        handleItem(ModItems.MITHRIL_PICKAXE);
+        handleItem(ModItems.MITHRIL_AXE);
+        handleItem(ModItems.MITHRIL_HOE);
+        handleItem(ModItems.MITHRIL_SWORD);
 
-        basicItem(ModItems.DWARVEN_COAL.get());
-
-        basicItem(ModItems.LEMBAS.get());
-
-        basicItem(ModItems.ENERGY_CIRCUIT_INGOT.get());
-
-        basicItem(ModItems.THE_ONE_RING.get());
-
-        basicItem(ModItems.CHISEL.get());
-
+        //ELVEN
         buttonItem(ModBlocks.MITHRIL_BUTTON, ModBlocks.MITHRIL_INGOT_BLOCK);
         fenceItem(ModBlocks.MITHRIL_FENCE, ModBlocks.MITHRIL_INGOT_BLOCK);
         wallItem(ModBlocks.MITHRIL_WALL, ModBlocks.MITHRIL_INGOT_BLOCK);
-
         simpleBlockItem(ModBlocks.MITHRIL_DOOR);
 
-        handheldItem(ModItems.MITHRIL_SHOVEL);
-        handheldItem(ModItems.MITHRIL_PICKAXE);
-        handheldItem(ModItems.MITHRIL_AXE);
-        handheldItem(ModItems.MITHRIL_HOE);
-        handheldItem(ModItems.MITHRIL_SWORD);
+        //RINGS
+        basicItem(ModItems.THE_ONE_RING.get());
 
+        //LEGENDARY
+        basicItem(ModItems.CHISEL.get());
+        basicItem(ModItems.DETECTOR_CRYSTAL.get());
+        basicItem(ModItems.DETECTOR_METAL.get());
+
+        //FOOD
+        basicItem(ModItems.LEMBAS.get());
+
+        //OTHER
+        basicItem(ModItems.DWARVEN_COAL.get());
+        basicItem(ModItems.ENERGY_CIRCUIT_INGOT.get());
     }
-    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+
+    private ItemModelBuilder handleItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),
                 ResourceLocation.parse("item/handheld")).texture("layer0",
                 ResourceLocation.fromNamespaceAndPath(LotrMod.MOD_ID,"item/" + item.getId().getPath()));
     }
-
 
     public void buttonItem(RegistryObject<? extends Block> block, RegistryObject<Block> baseBlock) {
         this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/button_inventory"))

@@ -1,10 +1,10 @@
-// 1.21.1	2025-06-12T11:30:01.2246349	Recipes
+// 1.21.1	2025-06-12T13:57:00.6283664	Recipes
 00eff98522f72a02e19118ee2eef05635bb0a55b data/lotrmod/advancement/recipes/building_blocks/mithril_slab.json
 45cc7972be864c708ba114b73d665b99e570ddfd data/lotrmod/advancement/recipes/building_blocks/mithril_stairs.json
 b7913b845df3ba5a2824c99be56b64e29ed8f40d data/lotrmod/advancement/recipes/building_blocks/mithril_wall.json
-c4ae038eb0798d5c75836d68b88b68c0f71c2f18 data/lotrmod/advancement/recipes/combat/the_one_ring.json
+1497bf1f9ec1423b09b30e29cd655f418106bea8 data/lotrmod/advancement/recipes/combat/ring_sauron.json
 feac7f496c4e212afc75f4cba3e46061008b67d0 data/lotrmod/advancement/recipes/decorations/mithril_fence.json
-0b0b2b8cfd2a37d4acdb9bf81e5c03757a2633d3 data/lotrmod/advancement/recipes/food/lembas.json
+f293f1a78b871adb4db86aafecb70383c26cedcb data/lotrmod/advancement/recipes/food/food_lembas.json
 09b8b072a07467e2b0ebd53674d662b2c12e2f7e data/lotrmod/advancement/recipes/misc/dwarven_coal.json
 c9901769edaeba07eeba20e20c49ad948e1dd93b data/lotrmod/advancement/recipes/misc/mithril_bar.json
 f653da258264d06fdf2f5e20ab7f8475e1759a64 data/lotrmod/advancement/recipes/misc/mithril_bar_block.json
@@ -37,7 +37,7 @@ c9f85adb1f73b3953a19ac64fba7e7c17e424fc6 data/lotrmod/advancement/recipes/tools/
 7ce781f30d897b885562deedb0f88e0df8226c1c data/lotrmod/recipe/detector_metal.json
 4a0e79d22447eaac86e95617dbbc2947618a2f01 data/lotrmod/recipe/dwarven_coal.json
 8b6a55f2d4a13546ec8313c421fe8f1e1ad3b8d4 data/lotrmod/recipe/energy_circuit_ingot.json
-c8f36e4bdf502e4ffd199a3c2b4646ae210e7ce5 data/lotrmod/recipe/lembas.json
+914b11847675421882069cb8e318fbe3316c7d9d data/lotrmod/recipe/food_lembas.json
 187eb5a3fa32e9b0eeb5e9ee98766927df1295bd data/lotrmod/recipe/mithril_axe.json
 c229f674463a14e6a9105cd9a809bde033a1a0f7 data/lotrmod/recipe/mithril_bar.json
 e256561679c5b52c7adc0e13c8e48fc671bce4c5 data/lotrmod/recipe/mithril_bar_block.json
@@ -66,6 +66,6 @@ bb16ac0bcfa3d753b6188ae2b81345767daffc48 data/lotrmod/recipe/mithril_slab.json
 645dae90f6979116e2e392712dfaf04163d83b91 data/lotrmod/recipe/mithril_sword.json
 30d3c921d9b9774b7c066c86d339e53b69330428 data/lotrmod/recipe/mithril_trapdoor.json
 d86811a5d9d32bf7ca722d4b63d1adeeb3e9270a data/lotrmod/recipe/mithril_wall.json
-2b67e0c97b27d30a4d9f9dc9537171dca9deaf9a data/lotrmod/recipe/the_one_ring.json
+e3b49462788cbfd1a2a66dacdb79c0fe7b303e6e data/lotrmod/recipe/ring_sauron.json
 7e50957b22be10de5f98c5e7e382ceaf38b08072 data/minecraft/advancement/recipes/misc/mithril_from_crafting.json
 bb4925a094aad3381ba86165505d5b63d7c532e5 data/minecraft/recipe/mithril_from_crafting.json

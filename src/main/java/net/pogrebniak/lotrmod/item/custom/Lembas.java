@@ -25,6 +25,6 @@ public class Lembas extends ModFoodItems {
     @Override
     public void appendHoverText(ItemStack pStack, TooltipContext pContext,
                                 List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
-        pTooltipComponents.add(Component.translatable("tooltip.lotrmod.lembas.tooltip"));
+        pTooltipComponents.add(Component.translatable("tooltip.lotrmod.food_lembas.tooltip"));
     }
 }

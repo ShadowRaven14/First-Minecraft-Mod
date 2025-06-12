@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "lotrmod:lembas"
+        "recipe": "lotrmod:food_lembas"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "lotrmod:lembas"
+      "lotrmod:food_lembas"
     ]
   }
 }
