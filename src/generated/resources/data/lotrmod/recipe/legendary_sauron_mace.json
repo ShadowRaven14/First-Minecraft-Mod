@@ -6,13 +6,16 @@
       "item": "minecraft:stick"
     },
     "M": {
-      "item": "lotrmod:mithril_ingot"
+      "item": "lotrmod:mithril_bar"
+    },
+    "T": {
+      "item": "lotrmod:mithril_bar_block"
     }
   },
   "pattern": [
-    "MM",
-    " I",
-    " I"
+    "MTM",
+    "MIM",
+    " I "
   ],
   "result": {
     "count": 1,

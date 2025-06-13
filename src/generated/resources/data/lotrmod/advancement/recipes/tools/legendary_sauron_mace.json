@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_mithril_ingot": {
+    "has_mithril_bar": {
       "conditions": {
         "items": [
           {
-            "items": "lotrmod:mithril_ingot"
+            "items": "lotrmod:mithril_bar"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_mithril_ingot"
+      "has_mithril_bar"
     ]
   ],
   "rewards": {

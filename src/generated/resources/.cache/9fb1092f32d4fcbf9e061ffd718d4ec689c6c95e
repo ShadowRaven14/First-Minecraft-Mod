@@ -1,4 +1,4 @@
-// 1.21.1	2025-06-12T18:27:04.8541602	Recipes
+// 1.21.1	2025-06-13T13:18:42.2911969	Recipes
 00eff98522f72a02e19118ee2eef05635bb0a55b data/lotrmod/advancement/recipes/building_blocks/mithril_slab.json
 45cc7972be864c708ba114b73d665b99e570ddfd data/lotrmod/advancement/recipes/building_blocks/mithril_stairs.json
 b7913b845df3ba5a2824c99be56b64e29ed8f40d data/lotrmod/advancement/recipes/building_blocks/mithril_wall.json
@@ -28,7 +28,7 @@ d86b271c11203e8bf20fdf299c7534e286475da9 data/lotrmod/advancement/recipes/redsto
 4235d5cb59ab110914436e2ab9512295e0f2eb94 data/lotrmod/advancement/recipes/redstone/mithril_trapdoor.json
 0513a09176aa1b2e92649fc5339be2e8e3066573 data/lotrmod/advancement/recipes/tools/detector_crystal.json
 06e7be9bf0639a838db3307a280358dc7dbafec7 data/lotrmod/advancement/recipes/tools/detector_metal.json
-82d708b05735d663b641a8bf6aaee5c3340a10b3 data/lotrmod/advancement/recipes/tools/legendary_sauron_mace.json
+11aac2c42e4f3d4bc33198c32f4ae06f305e4f4c data/lotrmod/advancement/recipes/tools/legendary_sauron_mace.json
 c9f85adb1f73b3953a19ac64fba7e7c17e424fc6 data/lotrmod/advancement/recipes/tools/mithril_axe.json
 3c23b0abf81f0d0ddefdb42c001d6386b251b8f4 data/lotrmod/advancement/recipes/tools/mithril_hoe.json
 952a525323faae38fe0a00f063c2512ca9edba36 data/lotrmod/advancement/recipes/tools/mithril_pickaxe.json
@@ -39,7 +39,7 @@ c9f85adb1f73b3953a19ac64fba7e7c17e424fc6 data/lotrmod/advancement/recipes/tools/
 4a0e79d22447eaac86e95617dbbc2947618a2f01 data/lotrmod/recipe/dwarven_coal.json
 8b6a55f2d4a13546ec8313c421fe8f1e1ad3b8d4 data/lotrmod/recipe/energy_circuit_ingot.json
 914b11847675421882069cb8e318fbe3316c7d9d data/lotrmod/recipe/food_lembas.json
-8e54326f197b54389042fb4af64e1ed254978c1f data/lotrmod/recipe/legendary_sauron_mace.json
+42fbe1cdeb020ced3caf6ae15f2a9a99945bae66 data/lotrmod/recipe/legendary_sauron_mace.json
 187eb5a3fa32e9b0eeb5e9ee98766927df1295bd data/lotrmod/recipe/mithril_axe.json
 c229f674463a14e6a9105cd9a809bde033a1a0f7 data/lotrmod/recipe/mithril_bar.json
 e256561679c5b52c7adc0e13c8e48fc671bce4c5 data/lotrmod/recipe/mithril_bar_block.json

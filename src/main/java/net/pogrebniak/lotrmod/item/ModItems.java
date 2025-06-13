@@ -49,7 +49,7 @@ public class ModItems {
     //LEGENDARY
     public static final RegistryObject<Item> SAURON_MACE = ITEMS.register("legendary_sauron_mace",
             () -> new SauronMace(ModToolTiers.MITHRIL, new Item.Properties()
-                    .attributes(SwordItem.createAttributes(ModToolTiers.MITHRIL, 6, -2.4f))));
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.MITHRIL, 14, -3.4f))));
 
     public static final RegistryObject<Item> HORN_OF_COURAGE = ITEMS.register("legendary_horn_of_courage",
             ()-> new HornOfCourage(new Item.Properties()));

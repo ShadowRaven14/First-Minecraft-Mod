@@ -98,35 +98,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('P', ModItems.MITHRIL_INGOT.get())
                 .unlockedBy(getHasName(ModItems.MITHRIL_INGOT.get()), has(ModItems.MITHRIL_INGOT.get())).save(pRecipeOutput, "mithril_from_crafting");
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,  ModItems.DETECTOR_METAL.get())
-                .pattern("S")
-                .pattern("K")
-                .pattern("Z")
-                .define('S', Items.STICK)
-                .define('K', ModItems.ENERGY_CIRCUIT_INGOT.get())
-                .define('Z', Items.AMETHYST_SHARD)
-                .unlockedBy(getHasName(ModItems.ENERGY_CIRCUIT_INGOT.get()), has(ModItems.ENERGY_CIRCUIT_INGOT.get())).save(pRecipeOutput);
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,  ModItems.DETECTOR_CRYSTAL.get())
-                .pattern("E")
-                .pattern("R")
-                .pattern("P")
-                .define('E', ModItems.DETECTOR_METAL.get())
-                .define('R', Items.REDSTONE_BLOCK)
-                .define('P', ModItems.MITHRIL_INGOT.get())
-                .unlockedBy(getHasName(ModItems.DETECTOR_METAL.get()), has(ModItems.DETECTOR_METAL.get())).save(pRecipeOutput);
 
         oreBlasting(pRecipeOutput, MITHRIL_SMELTABLES, RecipeCategory.MISC, ModItems.MITHRIL_INGOT.get(), 1.5f, 100, "mithril");
         oreSmelting(pRecipeOutput, MITHRIL_SMELTABLES, RecipeCategory.MISC, ModItems.MITHRIL_INGOT.get(), 1.5f, 150, "mithril");
-
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,  ModItems.THE_ONE_RING.get())
-                .pattern("OOO")
-                .pattern("OVO")
-                .pattern("OOO")
-                .define('O', Items.GOLD_BLOCK)
-                .define('V', ModBlocks.MITHRIL_BAR_BLOCK.get())
-                .unlockedBy(getHasName(ModItems.MITHRIL_BAR.get()), has(ModItems.MITHRIL_BAR.get())).save(pRecipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,  ModItems.MITHRIL_SWORD.get())
                 .pattern("M")
@@ -167,16 +141,44 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('I', Items.STICK)
                 .define('M', ModItems.MITHRIL_INGOT.get())
                 .unlockedBy(getHasName(ModItems.MITHRIL_INGOT.get()), has(ModItems.MITHRIL_INGOT.get())).save(pRecipeOutput);
+        //rings
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,  ModItems.THE_ONE_RING.get())
+                .pattern("OOO")
+                .pattern("OVO")
+                .pattern("OOO")
+                .define('O', Items.GOLD_BLOCK)
+                .define('V', ModBlocks.MITHRIL_BAR_BLOCK.get())
+                .unlockedBy(getHasName(ModItems.MITHRIL_BAR.get()), has(ModItems.MITHRIL_BAR.get())).save(pRecipeOutput);
 
+        //legendary item
         ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,  ModItems.SAURON_MACE.get())
-                .pattern("MM")
-                .pattern(" I")
-                .pattern(" I")
+                .pattern("MTM")
+                .pattern("MIM")
+                .pattern(" I ")
                 .define('I', Items.STICK)
-                .define('M', ModItems.MITHRIL_INGOT.get())
-                .unlockedBy(getHasName(ModItems.MITHRIL_INGOT.get()), has(ModItems.MITHRIL_INGOT.get())).save(pRecipeOutput);
+                .define('M', ModItems.MITHRIL_BAR.get())
+                .define('T', ModBlocks.MITHRIL_BAR_BLOCK.get())
+                .unlockedBy(getHasName(ModItems.MITHRIL_BAR.get()), has(ModItems.MITHRIL_BAR.get())).save(pRecipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,  ModItems.DETECTOR_CRYSTAL.get())
+                .pattern("E")
+                .pattern("R")
+                .pattern("P")
+                .define('E', ModItems.DETECTOR_METAL.get())
+                .define('R', Items.REDSTONE_BLOCK)
+                .define('P', ModItems.MITHRIL_INGOT.get())
+                .unlockedBy(getHasName(ModItems.DETECTOR_METAL.get()), has(ModItems.DETECTOR_METAL.get())).save(pRecipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,  ModItems.DETECTOR_METAL.get())
+                .pattern("S")
+                .pattern("K")
+                .pattern("Z")
+                .define('S', Items.STICK)
+                .define('K', ModItems.ENERGY_CIRCUIT_INGOT.get())
+                .define('Z', Items.AMETHYST_SHARD)
+                .unlockedBy(getHasName(ModItems.ENERGY_CIRCUIT_INGOT.get()), has(ModItems.ENERGY_CIRCUIT_INGOT.get())).save(pRecipeOutput);
+
+        //Blocks
         stairBuilder(ModBlocks.MITHRIL_STAIRS.get(), Ingredient.of(ModItems.MITHRIL_INGOT.get())).group("mithril")
                 .unlockedBy(getHasName(ModItems.MITHRIL_INGOT.get()), has(ModItems.MITHRIL_INGOT.get())).save(pRecipeOutput);
 

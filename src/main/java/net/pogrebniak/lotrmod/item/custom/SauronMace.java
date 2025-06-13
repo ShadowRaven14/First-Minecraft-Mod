@@ -11,7 +11,7 @@ import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.level.Level;
 
-public class SauronMace extends SwordItem {
+public class SauronMace extends HammerItem {
     public SauronMace(Tier pTier, Properties pProperties) {
         super(pTier, pProperties.stacksTo(1));
         pProperties.durability(10000);
