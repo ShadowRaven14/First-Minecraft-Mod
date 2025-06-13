@@ -76,6 +76,16 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.DWARVEN_COAL.get());
                         pOutput.accept(ModItems.ENERGY_CIRCUIT_INGOT.get());
                         pOutput.accept(ModBlocks.SOUND_BLOCK.get());
+                        //ARMOR
+                        pOutput.accept(ModItems.MITHRIL_HELMET.get());
+                        pOutput.accept(ModItems.MITHRIL_CHESTPLATE.get());
+                        pOutput.accept(ModItems.MITHRIL_LEGGINGS.get());
+                        pOutput.accept(ModItems.MITHRIL_BOOTS.get());
+
+                        pOutput.accept(ModItems.SILVER_HELMET.get());
+                        pOutput.accept(ModItems.SILVER_CHESTPLATE.get());
+                        pOutput.accept(ModItems.SILVER_LEGGINGS.get());
+                        pOutput.accept(ModItems.SILVER_BOOTS.get());
 
                     })
                     .build());

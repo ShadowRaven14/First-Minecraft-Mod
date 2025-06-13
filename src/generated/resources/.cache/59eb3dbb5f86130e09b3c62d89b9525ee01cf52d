@@ -1,4 +1,4 @@
-// 1.21.1	2025-06-13T14:36:15.8554192	Loot Tables
+// 1.21.1	2025-06-13T22:04:03.6303089	Loot Tables
 bbb06aa89a1d2ef8f12784e7482ad39d9f8592ed data/lotrmod/loot_table/blocks/mithril_bar_block.json
 e53e971a21da40f8736ab99103086d04a29bf017 data/lotrmod/loot_table/blocks/mithril_button.json
 c12e0b1fff3315f2b9c498fc0d6fe3350a099db1 data/lotrmod/loot_table/blocks/mithril_door.json
@@ -6,10 +6,10 @@ ddce24b3aaf614a157068bda436ec4767b8bca41 data/lotrmod/loot_table/blocks/mithril_
 8b0a01e5e5d208d03675acbbfb2aa8237c02400d data/lotrmod/loot_table/blocks/mithril_fence_gate.json
 ba55cb3cff5b894929efed82e2cefd7252ceb2c3 data/lotrmod/loot_table/blocks/mithril_ingot_block.json
 2fa6e63dd025a3923026bd421b4cf50e902f5772 data/lotrmod/loot_table/blocks/mithril_lamp.json
-e23e4b09916242d2d48320f5b5d84aeb8e2471bb data/lotrmod/loot_table/blocks/mithril_ore.json
-cd7d59c49f475d32060e9586da474add83b83ff1 data/lotrmod/loot_table/blocks/mithril_ore_deepslate.json
-b3add0e1c897de792528eec5c750048707cac24b data/lotrmod/loot_table/blocks/mithril_ore_end_stone.json
-3eec8f027b5ca63ce05c0f9bb49218cf392d4ffa data/lotrmod/loot_table/blocks/mithril_ore_nether.json
+aae31ec572142260420264d1cdf8d2593f4b9823 data/lotrmod/loot_table/blocks/mithril_ore.json
+b6ece4ca8d1fafed788f40159e7956e16935c2b3 data/lotrmod/loot_table/blocks/mithril_ore_deepslate.json
+a558896b942045a35552ebc3a86bef79691ba031 data/lotrmod/loot_table/blocks/mithril_ore_end_stone.json
+4e84ac94e5e6f11915283341fe4fc22088d302f3 data/lotrmod/loot_table/blocks/mithril_ore_nether.json
 b5952dbb7dbf023b0a1ba151db6fefcc2ec79317 data/lotrmod/loot_table/blocks/mithril_pressure_plate.json
 1d6f4bc5bb67224e55ac64962a840189a7b52d81 data/lotrmod/loot_table/blocks/mithril_raw_block.json
 d4f527ed87e83d17edd62669880083ae4a11eea3 data/lotrmod/loot_table/blocks/mithril_slab.json
@@ -17,6 +17,6 @@ e8f30f68bdb800fefdce2ca3f9cb5542ff6f9f95 data/lotrmod/loot_table/blocks/mithril_
 4b062771514d0bdbaa0cfcd26d110f86d98f114a data/lotrmod/loot_table/blocks/mithril_trapdoor.json
 56bd4d7da196873598910e47624e63c10201e1b3 data/lotrmod/loot_table/blocks/mithril_wall.json
 2fa70fc59c45cf997c73c83b994b10b12f59d59f data/lotrmod/loot_table/blocks/silver_ingot_block.json
-9889849e7b859f6c7e8d252c8da5b47917b8503b data/lotrmod/loot_table/blocks/silver_ore.json
+8bea5af31203e7a6cf6aaabeabba771153389bcf data/lotrmod/loot_table/blocks/silver_ore.json
 55c16fa6af1968736e4f23e4176563dfe2774f4c data/lotrmod/loot_table/blocks/silver_raw_block.json
 609d5db3760ad2cd6db90049aaf95d5b0ff6bc9e data/lotrmod/loot_table/blocks/sound_block.json

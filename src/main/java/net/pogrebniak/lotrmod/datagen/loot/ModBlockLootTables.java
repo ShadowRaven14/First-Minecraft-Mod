@@ -40,20 +40,20 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.SOUND_BLOCK.get());
 
         this.add(ModBlocks.MITHRIL_ORE.get(),
-                block -> createCopperLikeOreDrops(ModBlocks.MITHRIL_ORE.get(), ModItems.MITHRIL_RAW.get()));
+                block -> createMithrilLikeOreDrops(ModBlocks.MITHRIL_ORE.get(), ModItems.MITHRIL_RAW.get()));
         this.add(ModBlocks.MITHRIL_ORE_NETHER.get(),
-                block -> createCopperLikeOreDrops(ModBlocks.MITHRIL_ORE.get(), ModItems.MITHRIL_RAW.get()));
+                block -> createMithrilLikeOreDrops(ModBlocks.MITHRIL_ORE.get(), ModItems.MITHRIL_RAW.get()));
         this.add(ModBlocks.MITHRIL_ORE_DEEPSLATE.get(),
-                block -> createCopperLikeOreDrops(ModBlocks.MITHRIL_ORE.get(), ModItems.MITHRIL_RAW.get()));
+                block -> createMithrilLikeOreDrops(ModBlocks.MITHRIL_ORE.get(), ModItems.MITHRIL_RAW.get()));
         this.add(ModBlocks.MITHRIL_ORE_END_STONE.get(),
-                block -> createCopperLikeOreDrops(ModBlocks.MITHRIL_ORE.get(), ModItems.MITHRIL_RAW.get()));
+                block -> createSilverLikeOreDrops(ModBlocks.MITHRIL_ORE.get(), ModItems.MITHRIL_RAW.get()));
         //SILVER
         this.add(ModBlocks.SILVER_ORE.get(),
-                block -> createCopperLikeOreDrops(ModBlocks.SILVER_ORE.get(), ModItems.SILVER_RAW.get()));
+                block -> createSilverLikeOreDrops(ModBlocks.SILVER_ORE.get(), ModItems.SILVER_RAW.get()));
 //        this.add(ModBlocks.SILVER_ORE_NETHER.get(),
-//                block -> createCopperLikeOreDrops(ModBlocks.SILVER_ORE.get(), ModItems.SILVER_RAW.get()));
+//                block -> createSilverLikeOreDrops(ModBlocks.SILVER_ORE.get(), ModItems.SILVER_RAW.get()));
 //        this.add(ModBlocks.SILVER_ORE_DEEPSLATE.get(),
-//                block -> createCopperLikeOreDrops(ModBlocks.SILVER_ORE.get(), ModItems.SILVER_RAW.get()));
+//                block -> createSilverLikeOreDrops(ModBlocks.SILVER_ORE.get(), ModItems.SILVER_RAW.get()));
         this.dropSelf(ModBlocks.SILVER_INGOT_BLOCK.get());
         this.dropSelf(ModBlocks.SILVER_RAW_BLOCK.get());
 
@@ -78,13 +78,21 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
     }
 
-    protected LootTable.Builder createCopperLikeOreDrops(Block pBlock, Item item ) {
+    protected LootTable.Builder createSilverLikeOreDrops(Block pBlock, Item item ) {
         HolderLookup.RegistryLookup<Enchantment> registrylookup = this.registries.lookupOrThrow(Registries.ENCHANTMENT);
         return this.createSilkTouchDispatchTable(pBlock, (LootPoolEntryContainer.Builder)
                 this.applyExplosionDecay(pBlock, LootItem.lootTableItem(item)
-                        .apply(SetItemCountFunction.setCount(UniformGenerator.between(2.0F, 5.0F)))
+                        .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0F, 4.0F)))
                         .apply(ApplyBonusCount.addOreBonusCount(registrylookup.getOrThrow(Enchantments.FORTUNE)))));
     }
+    protected LootTable.Builder createMithrilLikeOreDrops(Block pBlock, Item item ) {
+        HolderLookup.RegistryLookup<Enchantment> registrylookup = this.registries.lookupOrThrow(Registries.ENCHANTMENT);
+        return this.createSilkTouchDispatchTable(pBlock, (LootPoolEntryContainer.Builder)
+                this.applyExplosionDecay(pBlock, LootItem.lootTableItem(item)
+                        .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0F, 1.0F)))
+                        .apply(ApplyBonusCount.addOreBonusCount(registrylookup.getOrThrow(Enchantments.FORTUNE)))));
+    }
+
 
     @Override
     protected Iterable<Block> getKnownBlocks() {

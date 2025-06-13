@@ -60,6 +60,17 @@
   "item.lotrmod.silver_ingot": "Silver Ingot",
   "item.lotrmod.silver_raw": "Silver Raw",
 
+  "item.lotrmod.silver_helmet": "Silver Helmet",
+  "item.lotrmod.silver_chestplate": "Silver Chestplate",
+  "item.lotrmod.silver_leggins": "Silver Leggins",
+  "item.lotrmod.silver_boots": "Silver Boots",
+
+  "item.lotrmod.mithril_helmet": "Mithril Helmet",
+  "item.lotrmod.mithril_chestplate": "Mithril Chestplate",
+  "item.lotrmod.mithril_leggins": "Mithril Leggins",
+  "item.lotrmod.mithril_boots": "Mithril Boots",
+
+
 
 
   "creativetab.lotr_tab": "Lord of the Rings"

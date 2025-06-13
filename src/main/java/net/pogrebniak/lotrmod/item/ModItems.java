@@ -84,6 +84,40 @@ public class ModItems {
 
     public static final RegistryObject<Item> DWARVEN_COAL = ITEMS.register("dwarven_coal",
             ()-> new DvarvenCoal(new Item.Properties()));
+    //ARMOR
+    //MITHRIL
+    public static final RegistryObject<Item> MITHRIL_HELMET = ITEMS.register("mithril_helmet",
+            () -> new ArmorItem(ModArmorMaterials.MITHRIL_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(18))));
+
+    public static final RegistryObject<Item> MITHRIL_CHESTPLATE = ITEMS.register("mithril_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.MITHRIL_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(18))));
+
+    public static final RegistryObject<Item> MITHRIL_LEGGINGS = ITEMS.register("mithril_leggings",
+            () -> new ArmorItem(ModArmorMaterials.MITHRIL_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(18))));
+
+    public static final RegistryObject<Item> MITHRIL_BOOTS = ITEMS.register("mithril_boots",
+            () -> new ArmorItem(ModArmorMaterials.MITHRIL_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(18))));
+
+    //SILVER
+    public static final RegistryObject<Item> SILVER_HELMET = ITEMS.register("silver_helmet",
+            () -> new ArmorItem(ModArmorMaterials.SILVER_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(18))));
+
+    public static final RegistryObject<Item> SILVER_CHESTPLATE = ITEMS.register("silver_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.SILVER_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(18))));
+
+    public static final RegistryObject<Item> SILVER_LEGGINGS = ITEMS.register("silver_leggings",
+            () -> new ArmorItem(ModArmorMaterials.SILVER_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(18))));
+
+    public static final RegistryObject<Item> SILVER_BOOTS = ITEMS.register("silver_boots",
+            () -> new ArmorItem(ModArmorMaterials.SILVER_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(18))));
 
     //REGISTER
     public static void register(IEventBus eventBus) {

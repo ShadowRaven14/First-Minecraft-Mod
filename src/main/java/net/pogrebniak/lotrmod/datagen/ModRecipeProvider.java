@@ -224,6 +224,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModBlocks.SILVER_RAW_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.SILVER_RAW_BLOCK.get()), has(ModBlocks.SILVER_RAW_BLOCK.get()))
                 .save(pRecipeOutput);
+        //ARMOR
+
 
 
     }
