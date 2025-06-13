@@ -47,7 +47,14 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.MITHRIL_WALL.get(),
 
                         ModBlocks.MITHRIL_PRESSURE_PLATE.get(),
-                        ModBlocks.MITHRIL_BUTTON.get());
+                        ModBlocks.MITHRIL_BUTTON.get(),
+
+                        //SIlver
+                        ModBlocks.SILVER_INGOT_BLOCK.get(),
+                        ModBlocks.SILVER_RAW_BLOCK.get(),
+                        ModBlocks.SILVER_ORE.get());
+                        //ModBlocks.SILVER_ORE_DEEPSLATE.get(),
+                        //ModBlocks.SILVER_ORE_NETHER.get());
 
 
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
@@ -87,6 +94,17 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.MITHRIL_DOOR.get());
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.MITHRIL_TRAPDOOR.get());
+        //SILVER
+        tag(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.SILVER_INGOT_BLOCK.get());
+        tag(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.SILVER_RAW_BLOCK.get());
+        tag(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.SILVER_ORE.get());
+
+
+
+
 
         tag(BlockTags.FENCES).add(ModBlocks.MITHRIL_FENCE.get());
         tag(BlockTags.FENCE_GATES).add(ModBlocks.MITHRIL_FENCE_GATE.get());

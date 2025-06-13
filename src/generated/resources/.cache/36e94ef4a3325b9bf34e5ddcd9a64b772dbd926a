@@ -1,4 +1,4 @@
-// 1.21.1	2025-06-12T17:47:34.1676876	Block States: lotrmod
+// 1.21.1	2025-06-13T14:36:15.851909	Block States: lotrmod
 6c7d3ccccf88138237df7ac0a1650b22bf3e149f assets/lotrmod/blockstates/mithril_bar_block.json
 e8b9d86c9fb536916c1395bd3c27e886062de15a assets/lotrmod/blockstates/mithril_button.json
 144b557f56c450906ef0feab6a6c78da6ea5687d assets/lotrmod/blockstates/mithril_door.json
@@ -16,6 +16,9 @@ afb8b50b79d5dfc623c8252273243c46fdcbb8ca assets/lotrmod/blockstates/mithril_ore.
 863b8efd1644491537b9fc9bfd7d3267056b6434 assets/lotrmod/blockstates/mithril_stairs.json
 0c7b42f623fde1cedfadaf72c9eb28dd311c0cc0 assets/lotrmod/blockstates/mithril_trapdoor.json
 097bcc76475ae13088cafdcc7e8d0b3bb96c2365 assets/lotrmod/blockstates/mithril_wall.json
+0e2b17246e3b6938756d3c58a1962d0a31528927 assets/lotrmod/blockstates/silver_ingot_block.json
+3f86cca76a47a2880b42dce253f1017e8e31de51 assets/lotrmod/blockstates/silver_ore.json
+3a6a5cee8403485a4a75c6091c6aaa9e0187d080 assets/lotrmod/blockstates/silver_raw_block.json
 6686ccfb7581e9c3f1f7aab01e18e1b12ccd1b16 assets/lotrmod/blockstates/sound_block.json
 68cb435fd816cf18049b63f9dc66013937d8c0ea assets/lotrmod/models/block/mithril_bar_block.json
 a25fdb3872391521cec2ce3b917d4a17fb737c4d assets/lotrmod/models/block/mithril_button.json
@@ -55,9 +58,13 @@ f9c58349c0ef43a747e3f4501a139f7f14d96f19 assets/lotrmod/models/block/mithril_tra
 f91459f052ac6c31b7779dd6c500d8e5ed3d6315 assets/lotrmod/models/block/mithril_wall_post.json
 864155f0e5cc9f1c75cdd70bf01ff64055e7f242 assets/lotrmod/models/block/mithril_wall_side.json
 2b54ba53e63f27e06c7445b5160fca6cddcb3268 assets/lotrmod/models/block/mithril_wall_side_tall.json
+252db5b19f4249c4efa6f57fc4180135697aaf4a assets/lotrmod/models/block/silver_ingot_block.json
+d38db5588a4d571eeb4b479437f8ae319b7fd153 assets/lotrmod/models/block/silver_ore.json
+e205a233c97c3b516460d77bdd1a62e51325f7f2 assets/lotrmod/models/block/silver_raw_block.json
 2975f0f3cb7a829732fea5e815c692d4b2eea721 assets/lotrmod/models/block/sound_block.json
 00b514279eefaead16238dfe12d837a4858221f2 assets/lotrmod/models/item/mithril_bar_block.json
 35978db984e829711844f96c399fe32c0ba286bc assets/lotrmod/models/item/mithril_door.json
+4a10a2973373a8fb4b7ad95513a68b7504653783 assets/lotrmod/models/item/mithril_fence.json
 83ccc3542cee420d2b9e3a71d905a3a40cffdbd2 assets/lotrmod/models/item/mithril_fence_gate.json
 2036aa5aa402f8f27cfd0a065a1ceeb9ea957909 assets/lotrmod/models/item/mithril_ingot_block.json
 bde817d733dbdad240f99ff2af5ca9c203ea54b4 assets/lotrmod/models/item/mithril_lamp.json
@@ -70,4 +77,8 @@ a5957702212736a2dab2178f5c7ad521252ad6f5 assets/lotrmod/models/item/mithril_ore_
 3f51a1d9d52760ccf09b42ce9d79925921628ed6 assets/lotrmod/models/item/mithril_slab.json
 24d88a518c3286339357d470a8bfa7bb72de7d90 assets/lotrmod/models/item/mithril_stairs.json
 0761a020018910c3df5b63409b1570d86a9b1716 assets/lotrmod/models/item/mithril_trapdoor.json
+f6f499833a57e719db0c4794d6bbd0e04f6df2aa assets/lotrmod/models/item/mithril_wall.json
+03723c4f4ea0320bd5ad9530bff1d4a4a86cebee assets/lotrmod/models/item/silver_ingot_block.json
+25a0c25ef26895fc91e2c343fbde5ee27c7fabd7 assets/lotrmod/models/item/silver_ore.json
+f923fb54abd1fb8fe96741040b209092c3323726 assets/lotrmod/models/item/silver_raw_block.json
 2a77aa902202b535cdb6355cebc10a41df8ba6df assets/lotrmod/models/item/sound_block.json

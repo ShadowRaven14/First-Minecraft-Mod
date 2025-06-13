@@ -52,5 +52,15 @@
 
   "block.lotrmod.sound_block": "Sound Block",
 
+  "block.lotrmod.silver_ingot_block": "Silver Ingot Block",
+  "block.lotrmod.silver_raw_block": "Silver Raw Block",
+  "block.lotrmod.silver_ore": "Silver Ore",
+  "block.lotrmod.silver_ore_deepslate": "Deepslate Silver Ore",
+  "block.lotrmod.silver_ore_nether": " Nether Silver Ore",
+  "item.lotrmod.silver_ingot": "Silver Ingot",
+  "item.lotrmod.silver_raw": "Silver Raw",
+
+
+
   "creativetab.lotr_tab": "Lord of the Rings"
 }

@@ -21,7 +21,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> MITHRIL_BAR = ITEMS.register("mithril_bar",
             ()-> new Item(new Item.Properties()));
-
+    //TOOlS
     public static final RegistryObject<Item> MITHRIL_SWORD = ITEMS.register("mithril_sword",
             () -> new SwordItem(ModToolTiers.MITHRIL, new Item.Properties()
                     .attributes(SwordItem.createAttributes(ModToolTiers.MITHRIL, 3, -2.4f))));
@@ -41,6 +41,14 @@ public class ModItems {
     public static final RegistryObject<Item> MITHRIL_HOE = ITEMS.register("mithril_hoe",
             () -> new HoeItem(ModToolTiers.MITHRIL, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.MITHRIL, 0, -3.0f))));
+    //SILVER
+    public static final RegistryObject<Item> SILVER_RAW = ITEMS.register("silver_raw",
+            ()-> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot",
+            ()-> new Item(new Item.Properties()));
+
+
 
     //RINGS
     public static final RegistryObject<Item> THE_ONE_RING = ITEMS.register("ring_sauron",

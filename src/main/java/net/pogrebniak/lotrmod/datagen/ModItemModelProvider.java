@@ -32,6 +32,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         handleItem(ModItems.MITHRIL_HOE);
         handleItem(ModItems.MITHRIL_SWORD);
 
+        //SILVER
+        basicItem(ModItems.SILVER_INGOT.get());
+        basicItem(ModItems.SILVER_RAW.get());
+
+
         //ELVEN
         buttonItem(ModBlocks.MITHRIL_BUTTON, ModBlocks.MITHRIL_INGOT_BLOCK);
         fenceItem(ModBlocks.MITHRIL_FENCE, ModBlocks.MITHRIL_INGOT_BLOCK);

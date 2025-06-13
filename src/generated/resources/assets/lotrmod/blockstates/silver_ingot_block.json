@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "lotrmod:block/silver_ingot_block"
+    }
+  }
+}

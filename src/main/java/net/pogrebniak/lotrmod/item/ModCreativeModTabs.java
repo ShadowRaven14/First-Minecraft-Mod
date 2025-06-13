@@ -38,6 +38,15 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.MITHRIL_ORE_END_STONE.get());
                         pOutput.accept(ModBlocks.MITHRIL_ORE_NETHER.get());
 
+                        //SILVER
+                        pOutput.accept(ModBlocks.SILVER_INGOT_BLOCK.get());
+                        pOutput.accept(ModBlocks.SILVER_RAW_BLOCK.get());
+                        pOutput.accept(ModBlocks.SILVER_ORE.get());
+                        pOutput.accept(ModItems.SILVER_RAW.get());
+                        pOutput.accept(ModItems.SILVER_INGOT.get());
+
+
+
                         //ELVEN
                         pOutput.accept(ModBlocks.MITHRIL_LAMP.get());
                         pOutput.accept(ModBlocks.MITHRIL_DOOR.get());

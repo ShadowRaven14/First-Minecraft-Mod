@@ -1,4 +1,4 @@
-// 1.21.1	2025-06-12T20:05:20.7090766	Item Models: lotrmod
+// 1.21.1	2025-06-13T14:36:15.8585352	Item Models: lotrmod
 9b193523ba1e535d89af18bf67d79db9625674ae assets/lotrmod/models/item/detector_crystal.json
 66d6370641af41bf017714dba57deed693579a01 assets/lotrmod/models/item/detector_metal.json
 f3d78394af5524eebe573f478ef2377fa32fdfde assets/lotrmod/models/item/dwarven_coal.json
@@ -20,3 +20,5 @@ cf27cfcb35e3c3da73263af842d31c3b0b3f58ff assets/lotrmod/models/item/mithril_pick
 df133c0f2959114e5d8df777ca252f4bb0f88642 assets/lotrmod/models/item/mithril_sword.json
 5cbe98246b98793239e090775324bc0ee35ff4f3 assets/lotrmod/models/item/mithril_wall.json
 bb852c2d63f48db53c7909fd17da143bfd707eea assets/lotrmod/models/item/ring_sauron.json
+2fa110623015e7529ac41e9c250d54b287d0344c assets/lotrmod/models/item/silver_ingot.json
+14b28a55eec897eae31973cd5cb37ea3896b7c32 assets/lotrmod/models/item/silver_raw.json

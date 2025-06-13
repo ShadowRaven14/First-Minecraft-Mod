@@ -47,6 +47,16 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 block -> createCopperLikeOreDrops(ModBlocks.MITHRIL_ORE.get(), ModItems.MITHRIL_RAW.get()));
         this.add(ModBlocks.MITHRIL_ORE_END_STONE.get(),
                 block -> createCopperLikeOreDrops(ModBlocks.MITHRIL_ORE.get(), ModItems.MITHRIL_RAW.get()));
+        //SILVER
+        this.add(ModBlocks.SILVER_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.SILVER_ORE.get(), ModItems.SILVER_RAW.get()));
+//        this.add(ModBlocks.SILVER_ORE_NETHER.get(),
+//                block -> createCopperLikeOreDrops(ModBlocks.SILVER_ORE.get(), ModItems.SILVER_RAW.get()));
+//        this.add(ModBlocks.SILVER_ORE_DEEPSLATE.get(),
+//                block -> createCopperLikeOreDrops(ModBlocks.SILVER_ORE.get(), ModItems.SILVER_RAW.get()));
+        this.dropSelf(ModBlocks.SILVER_INGOT_BLOCK.get());
+        this.dropSelf(ModBlocks.SILVER_RAW_BLOCK.get());
+
 
         dropSelf(ModBlocks.MITHRIL_STAIRS.get());
         this.add(ModBlocks.MITHRIL_SLAB.get(),

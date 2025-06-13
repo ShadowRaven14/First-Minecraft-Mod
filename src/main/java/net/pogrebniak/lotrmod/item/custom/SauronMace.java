@@ -44,10 +44,11 @@ public class SauronMace extends HammerItem {
 
     private void applyConstantEffectsMace(LivingEntity entity){
         entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 220, 1, false, false, false));
-        entity.addEffect(new MobEffectInstance(MobEffects.ABSORPTION, 220, 3, false, false, false));
+        entity.addEffect(new MobEffectInstance(MobEffects.ABSORPTION, 220, 0, false, false, false));
     }
 
     private void applyConstantEffectsRing(LivingEntity entity) {
+        entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 220, 8, false, false, false));
     }
 }
 

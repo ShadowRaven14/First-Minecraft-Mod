@@ -23,9 +23,17 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
+        //MITHRIL
         blockWithItem(ModBlocks.MITHRIL_INGOT_BLOCK);
         blockWithItem(ModBlocks.MITHRIL_BAR_BLOCK);
         blockWithItem(ModBlocks.MITHRIL_RAW_BLOCK);
+        //SILVER
+        blockWithItem(ModBlocks.SILVER_RAW_BLOCK);
+        blockWithItem(ModBlocks.SILVER_INGOT_BLOCK);
+        //ORES
+        blockWithItem(ModBlocks.SILVER_ORE);
+//        blockWithItem(ModBlocks.SILVER_ORE_DEEPSLATE);
+//        blockWithItem(ModBlocks.SILVER_ORE_NETHER);
 
         blockWithItem(ModBlocks.MITHRIL_ORE_DEEPSLATE);
         blockWithItem(ModBlocks.MITHRIL_ORE_END_STONE);
@@ -45,9 +53,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         blockItem(ModBlocks.MITHRIL_SLAB);
         blockItem(ModBlocks.MITHRIL_STAIRS);
-        //blockItem(ModBlocks.MITHRIL_WALL);
+        blockItem(ModBlocks.MITHRIL_WALL);
         blockItem(ModBlocks.MITHRIL_FENCE_GATE);
-        //blockItem(ModBlocks.MITHRIL_FENCE);
+        blockItem(ModBlocks.MITHRIL_FENCE);
         blockItem(ModBlocks.MITHRIL_DOOR);
         blockItem(ModBlocks.MITHRIL_TRAPDOOR, "_bottom");
         blockItem(ModBlocks.MITHRIL_PRESSURE_PLATE);

@@ -93,7 +93,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("IUI")
                 .pattern("UPU")
                 .pattern("IUI")
-                .define('I', Items.IRON_INGOT)
+                .define('I', ModItems.SILVER_INGOT.get())
                 .define('U', Items.GOLD_INGOT)
                 .define('P', ModItems.MITHRIL_INGOT.get())
                 .unlockedBy(getHasName(ModItems.MITHRIL_INGOT.get()), has(ModItems.MITHRIL_INGOT.get())).save(pRecipeOutput, "mithril_from_crafting");
@@ -101,7 +101,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         oreBlasting(pRecipeOutput, MITHRIL_SMELTABLES, RecipeCategory.MISC, ModItems.MITHRIL_INGOT.get(), 1.5f, 100, "mithril");
         oreSmelting(pRecipeOutput, MITHRIL_SMELTABLES, RecipeCategory.MISC, ModItems.MITHRIL_INGOT.get(), 1.5f, 150, "mithril");
-
+        //MITHRIL TOOLS
         ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,  ModItems.MITHRIL_SWORD.get())
                 .pattern("M")
                 .pattern("M")
@@ -199,7 +199,35 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.MITHRIL_INGOT.get()), has(ModItems.MITHRIL_INGOT.get())).save(pRecipeOutput);
 
 
+
+        //SILVER
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SILVER_INGOT_BLOCK.get())
+                .pattern("MMM")
+                .pattern("MMM")
+                .pattern("MMM")
+                .define('M', ModItems.SILVER_INGOT.get())
+                .unlockedBy(getHasName(ModItems.SILVER_INGOT.get()), has(ModItems.SILVER_INGOT.get())).save(pRecipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SILVER_INGOT.get(), 9)
+                .requires(ModBlocks.SILVER_INGOT_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.SILVER_INGOT_BLOCK.get()), has(ModBlocks.SILVER_INGOT_BLOCK.get()))
+                .save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SILVER_RAW_BLOCK.get())
+                .pattern("MMM")
+                .pattern("MMM")
+                .pattern("MMM")
+                .define('M', ModItems.SILVER_RAW.get())
+                .unlockedBy(getHasName(ModItems.SILVER_RAW.get()), has(ModItems.SILVER_RAW.get())).save(pRecipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SILVER_RAW.get(), 9)
+                .requires(ModBlocks.SILVER_RAW_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.SILVER_RAW_BLOCK.get()), has(ModBlocks.SILVER_RAW_BLOCK.get()))
+                .save(pRecipeOutput);
+
+
     }
+
 
 
     protected static void oreSmelting(RecipeOutput pRecipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTime, String pGroup) {

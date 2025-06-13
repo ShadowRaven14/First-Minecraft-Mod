@@ -17,6 +17,9 @@
     "lotrmod:mithril_fence",
     "lotrmod:mithril_wall",
     "lotrmod:mithril_pressure_plate",
-    "lotrmod:mithril_button"
+    "lotrmod:mithril_button",
+    "lotrmod:silver_ingot_block",
+    "lotrmod:silver_raw_block",
+    "lotrmod:silver_ore"
   ]
 }
