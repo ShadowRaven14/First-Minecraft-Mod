@@ -1,9 +1,10 @@
-// 1.21.1	2025-06-13T22:27:28.4146614	Item Models: lotrmod
+// 1.21.1	2025-06-14T23:42:51.2422096	Item Models: lotrmod
 9b193523ba1e535d89af18bf67d79db9625674ae assets/lotrmod/models/item/detector_crystal.json
 66d6370641af41bf017714dba57deed693579a01 assets/lotrmod/models/item/detector_metal.json
 f3d78394af5524eebe573f478ef2377fa32fdfde assets/lotrmod/models/item/dwarven_coal.json
 b1c5decd460380ca0514a0a69661f5aaa6adf9ba assets/lotrmod/models/item/energy_circuit_ingot.json
 e6ecaa3a61c674362cf3b4a380e492a5a0ae7d0f assets/lotrmod/models/item/food_lembas.json
+2b086c9c128d83a6eab47bfb6c8ad38e3cb912fb assets/lotrmod/models/item/legendary_anduril.json
 608daebe3fdfe3fbeacc058a08b425e418c409d7 assets/lotrmod/models/item/legendary_chisel.json
 a70df50f28799fcfcd4ee2ea6a6284dcad4022c6 assets/lotrmod/models/item/legendary_horn_of_courage.json
 b8690a8adb06c4b36b0360e4cce89f26b0d1f107 assets/lotrmod/models/item/legendary_sauron_mace.json
@@ -64,6 +65,7 @@ cf27cfcb35e3c3da73263af842d31c3b0b3f58ff assets/lotrmod/models/item/mithril_pick
 df133c0f2959114e5d8df777ca252f4bb0f88642 assets/lotrmod/models/item/mithril_sword.json
 5cbe98246b98793239e090775324bc0ee35ff4f3 assets/lotrmod/models/item/mithril_wall.json
 bb852c2d63f48db53c7909fd17da143bfd707eea assets/lotrmod/models/item/ring_sauron.json
+e0e3f6f599d55641b521c731e91d69fe8e774f8c assets/lotrmod/models/item/silver_axe.json
 ca6a9bd43a0b77d3ff2ece146ecbb329708367f2 assets/lotrmod/models/item/silver_boots.json
 022d80e42971a13a5a46fc12d3e74fd00db65647 assets/lotrmod/models/item/silver_boots_amethyst_trim.json
 3136b5728b1a92ebbd2202831c8cb402929010d9 assets/lotrmod/models/item/silver_boots_copper_trim.json
@@ -97,6 +99,7 @@ f7c21a61fec9256fb58d05f70a778ef07e3fdcd7 assets/lotrmod/models/item/silver_helme
 3d4c0f27aac659decab52ffc0c789f11b71b155a assets/lotrmod/models/item/silver_helmet_netherite_trim.json
 983f6947eb11c5aaf7a10bec4cf43b6626e46a1c assets/lotrmod/models/item/silver_helmet_quartz_trim.json
 3c75424a2e27cb5891677255c44043d87b4fd781 assets/lotrmod/models/item/silver_helmet_redstone_trim.json
+b1bea09b71727bb420fd23b367508e117340ef00 assets/lotrmod/models/item/silver_hoe.json
 2fa110623015e7529ac41e9c250d54b287d0344c assets/lotrmod/models/item/silver_ingot.json
 3dc63312caa4ff50f1ec9a56c50d7c9d2e1b701e assets/lotrmod/models/item/silver_leggings.json
 de7dabd9f56e310a76d5032ad236265cbeff59d5 assets/lotrmod/models/item/silver_leggings_amethyst_trim.json
@@ -109,4 +112,7 @@ de7dabd9f56e310a76d5032ad236265cbeff59d5 assets/lotrmod/models/item/silver_leggi
 8b9c485c59502d306ae3c30448212fa78bff0ab9 assets/lotrmod/models/item/silver_leggings_netherite_trim.json
 ec24dde16bfa063553fb0a1567d41ac88de3a81a assets/lotrmod/models/item/silver_leggings_quartz_trim.json
 f44d9d0aa965b5116d48f72c142c8b2e72daac87 assets/lotrmod/models/item/silver_leggings_redstone_trim.json
+11de2bd1cd2213379deb5c2e15f5b2caba491336 assets/lotrmod/models/item/silver_pickaxe.json
 14b28a55eec897eae31973cd5cb37ea3896b7c32 assets/lotrmod/models/item/silver_raw.json
+b26a2988db15db6b6c30ee92b579250367d314f1 assets/lotrmod/models/item/silver_shovel.json
+1a52c82839fc4ee5ad800c0d5bcc138e65178c7f assets/lotrmod/models/item/silver_sword.json

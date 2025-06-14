@@ -28,6 +28,12 @@
   "block.lotrmod.mithril_trapdoor": "Mithril Trapdoor",
   "block.lotrmod.mithril_lamp": "Mithril Lamp",
 
+  "item.lotrmod.silver_sword": "Silver Sword",
+  "item.lotrmod.silver_shovel": "Silver Shovel",
+  "item.lotrmod.silver_pickaxe": "Silver Pickaxe",
+  "item.lotrmod.silver_axe": "Silver Axe",
+  "item.lotrmod.silver_hoe": "Silver Hoe",
+
   "item.lotrmod.food_lembas": "Elven Lembas",
   "tooltip.lotrmod.food_lembas.tooltip": "Satisfies hunger for the whole day",
 
@@ -37,6 +43,10 @@
   "tooltip.lotrmod.ring_sauron.tooltip": "One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them.",
 
   "item.lotrmod.legendary_sauron_mace": "The Sauron Mace",
+
+  "item.lotrmod.legendary_anduril": "Anduril",
+
+
 
   "item.lotrmod.legendary_horn_of_courage": "Horn of Courage",
 
@@ -62,12 +72,12 @@
 
   "item.lotrmod.silver_helmet": "Silver Helmet",
   "item.lotrmod.silver_chestplate": "Silver Chestplate",
-  "item.lotrmod.silver_leggins": "Silver Leggins",
+  "item.lotrmod.silver_leggings": "Silver Leggins",
   "item.lotrmod.silver_boots": "Silver Boots",
 
   "item.lotrmod.mithril_helmet": "Mithril Helmet",
   "item.lotrmod.mithril_chestplate": "Mithril Chestplate",
-  "item.lotrmod.mithril_leggins": "Mithril Leggins",
+  "item.lotrmod.mithril_leggings": "Mithril Leggins",
   "item.lotrmod.mithril_boots": "Mithril Boots",
 
 

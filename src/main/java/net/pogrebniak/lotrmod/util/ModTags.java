@@ -13,6 +13,10 @@ public class ModTags {
     public static class Blocks {
         public static final TagKey<Block> NEEDS_MITHRIL_TOOL = createTag("needs_mithril_tool");
         public static  final TagKey<Block> INCORRECT_FOR_MITHRIL_TOOL = createTag("incorrect_for_mithril_tool");
+        public static final TagKey<Block> NEEDS_SILVER_TOOL = createTag("needs_silver_tool");
+        public static  final TagKey<Block> INCORRECT_FOR_SILVER_TOOL = createTag("incorrect_for_silver_tool");
+        public static final TagKey<Block> NEEDS_LEGENDARY_TOOL = createTag("needs_silver_tool");
+        public static  final TagKey<Block> INCORRECT_FOR_LEGENDARY_TOOL = createTag("incorrect_for_silver_tool");
         public static TagKey<Block> DETECTOR_METAL_VALUABLES = createTag("detector_metal_valuables");
         public static TagKey<Block> DETECTOR_CRYSTAL_VALUABLES = createTag("detector_crystal_valuables");
 

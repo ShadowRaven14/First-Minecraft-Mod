@@ -22,7 +22,7 @@ import net.pogrebniak.lotrmod.item.ModItems;
 import java.util.LinkedHashMap;
 
 public class ModItemModelProvider extends ItemModelProvider {
-    private static LinkedHashMap<ResourceKey<TrimMaterial>, Float> trimMaterials = new LinkedHashMap<>();
+    private static final LinkedHashMap<ResourceKey<TrimMaterial>, Float> trimMaterials = new LinkedHashMap<>();
     static {
         trimMaterials.put(TrimMaterials.QUARTZ, 0.1F);
         trimMaterials.put(TrimMaterials.IRON, 0.2F);
@@ -57,6 +57,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         //SILVER
         basicItem(ModItems.SILVER_INGOT.get());
         basicItem(ModItems.SILVER_RAW.get());
+        handleItem(ModItems.SILVER_SWORD);
+        handleItem(ModItems.SILVER_PICKAXE);
+        handleItem(ModItems.SILVER_AXE);
+        handleItem(ModItems.SILVER_HOE);
+        handleItem(ModItems.SILVER_SHOVEL);
 
 
         //ELVEN
@@ -70,6 +75,8 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         //LEGENDARY
         handleItem(ModItems.SAURON_MACE);
+        handleItem(ModItems.ANDURIL);
+
 
         basicItem(ModItems.CHISEL.get());
         basicItem(ModItems.DETECTOR_CRYSTAL.get());
@@ -93,7 +100,14 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.SILVER_LEGGINGS);
         trimmedArmorItem(ModItems.SILVER_BOOTS);
 
+        //ItemModelBuilder andurilBuilder = getBuilder("legendary_anduril")
+                //.parent(getExistingFile(mcLoc("item/generated")))
+                //.texture("layer0", modLoc("item/legendary_anduril"));
+
+        //withOverrides(andurilBuilder, "lotrmod:custom_property", 1f, "item/legendary_anduril_layer");
+
     }
+
     // Shoutout to El_Redstoniano for making this
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {
         final String MOD_ID = LotrMod.MOD_ID; // Change this to your mod id
@@ -140,6 +154,15 @@ public class ModItemModelProvider extends ItemModelProvider {
         }
     }
 
+    private ItemModelBuilder withOverrides(ItemModelBuilder builder, String predicate, float value, String overrideModelPath) {
+        builder.override()
+                .predicate(ResourceLocation.parse(predicate), value)
+                .model(getExistingFile(modLoc(overrideModelPath)))
+                .end();
+        return builder;
+    }
+
+
     private ItemModelBuilder handleItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),
                 ResourceLocation.parse("item/handheld")).texture("layer0",
@@ -170,4 +193,3 @@ public class ModItemModelProvider extends ItemModelProvider {
                 ResourceLocation.fromNamespaceAndPath(LotrMod.MOD_ID,"item/" + item.getId().getPath()));
     }
 }
-

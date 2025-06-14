@@ -54,6 +54,15 @@ public class ModArmorMaterials {
                 attribute.put(ArmorItem.Type.BODY, 5);
             }), 15, 0.0f, 0.0f, () -> ModItems.SILVER_INGOT.get());
 
+    public static final Holder<ArmorMaterial> SAURON_ARMOR_MATERIAL = register("sauron", Util.make(new EnumMap<>(ArmorItem.Type.class),
+            attribute -> {
+                attribute.put(ArmorItem.Type.BOOTS, 15);
+                attribute.put(ArmorItem.Type.LEGGINGS, 17);
+                attribute.put(ArmorItem.Type.CHESTPLATE,19);
+                attribute.put(ArmorItem.Type.HELMET, 15);
+                attribute.put(ArmorItem.Type.BODY, 20);
+            }), 30, 10.0f, 10.0f, () -> ModItems.MITHRIL_BAR.get());
+
 
 
 }

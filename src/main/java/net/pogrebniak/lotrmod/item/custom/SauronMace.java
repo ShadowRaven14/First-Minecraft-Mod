@@ -1,7 +1,9 @@
 package net.pogrebniak.lotrmod.item.custom;
 
+import net.minecraft.advancements.critereon.PlayerHurtEntityTrigger;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.entity.Attackable;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
@@ -10,6 +12,7 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.level.Level;
+import net.minecraftforge.event.entity.player.AttackEntityEvent;
 
 public class SauronMace extends HammerItem {
     public SauronMace(Tier pTier, Properties pProperties) {
@@ -33,6 +36,9 @@ public class SauronMace extends HammerItem {
 
             if (mainhandItem.getItem() instanceof SauronMace) {
                 applyConstantEffectsMace(player);
+                //applyConstantEffectsMace(postHurtEnemy(););
+
+
 
                 if (offhandItem.getItem() instanceof TheOneRing) {
                     applyConstantEffectsRing(player);
@@ -49,6 +55,10 @@ public class SauronMace extends HammerItem {
 
     private void applyConstantEffectsRing(LivingEntity entity) {
         entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 220, 8, false, false, false));
+        entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 220, 2, false, false, false));
+    }
+    private void applyConstantEffectsMaceAt(LivingEntity entity) {
+        entity.addEffect(new MobEffectInstance(MobEffects.WITHER, 220, 0, false, false, false));
     }
 }
 

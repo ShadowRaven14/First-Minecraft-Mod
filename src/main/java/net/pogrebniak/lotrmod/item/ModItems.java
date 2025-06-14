@@ -48,6 +48,26 @@ public class ModItems {
     public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot",
             ()-> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> SILVER_SWORD = ITEMS.register("silver_sword",
+            () -> new SwordItem(ModToolTiers.SILVER, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.SILVER, 4, -2.4f))));
+
+    public static final RegistryObject<Item> SILVER_PICKAXE = ITEMS.register("silver_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.SILVER, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.SILVER, 1, -2.8f))));
+
+    public static final RegistryObject<Item> SILVER_SHOVEL = ITEMS.register("silver_shovel",
+            () -> new ShovelItem(ModToolTiers.SILVER, new Item.Properties()
+                    .attributes(ShovelItem.createAttributes(ModToolTiers.SILVER, 1.5f, -3.0f))));
+
+    public static final RegistryObject<Item> SILVER_AXE = ITEMS.register("silver_axe",
+            () -> new AxeItem(ModToolTiers.SILVER, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTiers.SILVER, 3, -3.2f))));
+
+    public static final RegistryObject<Item> SILVER_HOE = ITEMS.register("silver_hoe",
+            () -> new HoeItem(ModToolTiers.SILVER, new Item.Properties()
+                    .attributes(HoeItem.createAttributes(ModToolTiers.SILVER, 0, -3.0f))));
+
 
 
     //RINGS
@@ -56,8 +76,12 @@ public class ModItems {
 
     //LEGENDARY
     public static final RegistryObject<Item> SAURON_MACE = ITEMS.register("legendary_sauron_mace",
-            () -> new SauronMace(ModToolTiers.MITHRIL, new Item.Properties()
-                    .attributes(PickaxeItem.createAttributes(ModToolTiers.MITHRIL, 14, -3.4f))));
+            () -> new SauronMace(ModToolTiers.LEGENDARY, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.LEGENDARY, 19, -3.2f))));
+
+    public static final RegistryObject<Item> ANDURIL = ITEMS.register("legendary_anduril",
+            () -> new Anduril(ModToolTiers.LEGENDARY, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.LEGENDARY, 5, -2.4f))));
 
     public static final RegistryObject<Item> HORN_OF_COURAGE = ITEMS.register("legendary_horn_of_courage",
             ()-> new HornOfCourage(new Item.Properties()));
@@ -105,19 +129,19 @@ public class ModItems {
     //SILVER
     public static final RegistryObject<Item> SILVER_HELMET = ITEMS.register("silver_helmet",
             () -> new ArmorItem(ModArmorMaterials.SILVER_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
-                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(18))));
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(12))));
 
     public static final RegistryObject<Item> SILVER_CHESTPLATE = ITEMS.register("silver_chestplate",
             () -> new ArmorItem(ModArmorMaterials.SILVER_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
-                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(18))));
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(12))));
 
     public static final RegistryObject<Item> SILVER_LEGGINGS = ITEMS.register("silver_leggings",
             () -> new ArmorItem(ModArmorMaterials.SILVER_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
-                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(18))));
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(12))));
 
     public static final RegistryObject<Item> SILVER_BOOTS = ITEMS.register("silver_boots",
             () -> new ArmorItem(ModArmorMaterials.SILVER_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
-                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(18))));
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(12))));
 
     //REGISTER
     public static void register(IEventBus eventBus) {

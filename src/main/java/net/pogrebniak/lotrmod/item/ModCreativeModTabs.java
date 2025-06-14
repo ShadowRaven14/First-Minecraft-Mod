@@ -44,6 +44,11 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.SILVER_ORE.get());
                         pOutput.accept(ModItems.SILVER_RAW.get());
                         pOutput.accept(ModItems.SILVER_INGOT.get());
+                        pOutput.accept(ModItems.SILVER_SWORD.get());
+                        pOutput.accept(ModItems.SILVER_SHOVEL.get());
+                        pOutput.accept(ModItems.SILVER_AXE.get());
+                        pOutput.accept(ModItems.SILVER_PICKAXE.get());
+                        pOutput.accept(ModItems.SILVER_HOE.get());
 
 
 
@@ -64,6 +69,7 @@ public class ModCreativeModTabs {
 
                         //LEGENDARY
                         pOutput.accept(ModItems.SAURON_MACE.get());
+                        pOutput.accept(ModItems.ANDURIL.get());
                         pOutput.accept(ModItems.CHISEL.get());
                         pOutput.accept(ModItems.DETECTOR_METAL.get());
                         pOutput.accept(ModItems.DETECTOR_CRYSTAL.get());

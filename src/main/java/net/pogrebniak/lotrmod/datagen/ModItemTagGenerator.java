@@ -41,6 +41,13 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 .add(ModItems.SILVER_LEGGINGS.get())
                 .add(ModItems.SILVER_BOOTS.get());
 
+                //.add(ModItems.SAURON_HELMET.get())
+                //.add(ModItems.SAURON_CHESTPLATE.get())
+                //.add(ModItems.SAURON_LEGGINGS.get())
+                //.add(ModItems.SAURON_BOOTS.get());
+
+
+
 
     }
 }
