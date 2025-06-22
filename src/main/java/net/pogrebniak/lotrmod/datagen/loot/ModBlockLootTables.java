@@ -50,10 +50,10 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         //SILVER
         this.add(ModBlocks.SILVER_ORE.get(),
                 block -> createSilverLikeOreDrops(ModBlocks.SILVER_ORE.get(), ModItems.SILVER_RAW.get()));
-//        this.add(ModBlocks.SILVER_ORE_NETHER.get(),
-//                block -> createSilverLikeOreDrops(ModBlocks.SILVER_ORE.get(), ModItems.SILVER_RAW.get()));
-//        this.add(ModBlocks.SILVER_ORE_DEEPSLATE.get(),
-//                block -> createSilverLikeOreDrops(ModBlocks.SILVER_ORE.get(), ModItems.SILVER_RAW.get()));
+        this.add(ModBlocks.SILVER_ORE_NETHER.get(),
+                block -> createSilverLikeOreDrops(ModBlocks.SILVER_ORE.get(), ModItems.SILVER_RAW.get()));
+        this.add(ModBlocks.SILVER_ORE_DEEPSLATE.get(),
+               block -> createSilverLikeOreDrops(ModBlocks.SILVER_ORE.get(), ModItems.SILVER_RAW.get()));
         this.dropSelf(ModBlocks.SILVER_INGOT_BLOCK.get());
         this.dropSelf(ModBlocks.SILVER_RAW_BLOCK.get());
 

@@ -1,0 +1,10 @@
+{
+  "remove": [
+    "#lotrmod:needs_silver_tool",
+    "#lotrmod:needs_silver_tool"
+  ],
+  "values": [
+    "#minecraft:needs_iron_tool",
+    "#minecraft:incorrect_for_diamond_tool"
+  ]
+}

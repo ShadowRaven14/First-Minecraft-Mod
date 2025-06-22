@@ -36,7 +36,7 @@ public class SauronMace extends HammerItem {
 
             if (mainhandItem.getItem() instanceof SauronMace) {
                 applyConstantEffectsMace(player);
-                //applyConstantEffectsMace(postHurtEnemy(););
+                //applyConstantEffectsMaceAt(entity);
 
 
 

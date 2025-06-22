@@ -32,8 +32,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.SILVER_INGOT_BLOCK);
         //ORES
         blockWithItem(ModBlocks.SILVER_ORE);
-//        blockWithItem(ModBlocks.SILVER_ORE_DEEPSLATE);
-//        blockWithItem(ModBlocks.SILVER_ORE_NETHER);
+        blockWithItem(ModBlocks.SILVER_ORE_DEEPSLATE);
+        blockWithItem(ModBlocks.SILVER_ORE_NETHER);
 
         blockWithItem(ModBlocks.MITHRIL_ORE_DEEPSLATE);
         blockWithItem(ModBlocks.MITHRIL_ORE_END_STONE);

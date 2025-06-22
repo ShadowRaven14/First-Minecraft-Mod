@@ -1,11 +1,13 @@
-// 1.21.1	2025-06-13T14:36:15.8575366	Tags for minecraft:block mod id lotrmod
+// 1.21.1	2025-06-15T21:00:04.0919279	Tags for minecraft:block mod id lotrmod
 bb742438c8120bedb6afbba7101ce41bcbe4c8a3 data/lotrmod/tags/block/detector_crystal_valuables.json
 bb742438c8120bedb6afbba7101ce41bcbe4c8a3 data/lotrmod/tags/block/detector_metal_valuables.json
 bc8f15a0121fa49eeb2e948e1c10a4c35d451d3a data/lotrmod/tags/block/incorrect_for_mithril_tool.json
+098fe222ea4a60f42370d71d1a2597afe4fa1720 data/lotrmod/tags/block/incorrect_for_silver_tool.json
 b3f8b2fbcd98b6c9d6bbbe9b3e4ef039bf50a55a data/lotrmod/tags/block/needs_mithril_tool.json
+6702cd2424d8d96d17bf4460aecd5bf08c40f405 data/lotrmod/tags/block/needs_silver_tool.json
 64162e8e2f086430eb998fcbbe8d9d628c23688a data/minecraft/tags/block/fences.json
 dc6987c253226f81207d10fd12c8c2e288ba121b data/minecraft/tags/block/fence_gates.json
-d95c3fad6b559fa101a5fdba4bb6847695cba70f data/minecraft/tags/block/mineable/pickaxe.json
+8b72b53878b3df41a9e47b9d489960ef8d3c1238 data/minecraft/tags/block/mineable/pickaxe.json
 a0a2d28630b45a9961fd93ce8667af044d42498d data/minecraft/tags/block/needs_diamond_tool.json
-0bad9e5808d76d742a6c089b3d5cb04b6b39e9f4 data/minecraft/tags/block/needs_iron_tool.json
+1670703aa0e112db3f041b691792c04c9efbe19f data/minecraft/tags/block/needs_iron_tool.json
 29da4e64c430a817daee14d4e70e3753060b5cb9 data/minecraft/tags/block/walls.json

@@ -1,0 +1,8 @@
+{
+  "values": [
+    "lotrmod:mithril_bar_block",
+    "#minecraft:needs_iron_tool",
+    "lotrmod:mithril_bar_block",
+    "#minecraft:needs_diamond_tool"
+  ]
+}

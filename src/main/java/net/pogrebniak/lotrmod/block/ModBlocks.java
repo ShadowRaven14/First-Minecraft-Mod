@@ -28,7 +28,7 @@ public class ModBlocks {
 
     //MITHRIL
     public static final RegistryObject<Block> MITHRIL_BAR_BLOCK = registerBlock("mithril_bar_block",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.ANCIENT_DEBRIS).requiresCorrectToolForDrops()
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.OBSIDIAN).requiresCorrectToolForDrops()
                     .sound(SoundType.AMETHYST).lightLevel(state -> 12)));
 
     public static final RegistryObject<Block> MITHRIL_INGOT_BLOCK = registerBlock("mithril_ingot_block",
@@ -45,36 +45,38 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> MITHRIL_ORE_DEEPSLATE = registerBlock("mithril_ore_deepslate",
             () -> new DropExperienceBlock(UniformInt.of(3, 7),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE_DIAMOND_ORE).requiresCorrectToolForDrops()
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.ANCIENT_DEBRIS).requiresCorrectToolForDrops()
                                 .sound(SoundType.DEEPSLATE).lightLevel(state -> 6)));
 
     public static final RegistryObject<Block> MITHRIL_ORE_END_STONE = registerBlock("mithril_ore_end_stone",
             () -> new DropExperienceBlock(UniformInt.of(3, 8),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_ORE).requiresCorrectToolForDrops()
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.ANCIENT_DEBRIS).requiresCorrectToolForDrops()
                                 .sound(SoundType.STONE).lightLevel(state -> 6)));
 
     public static final RegistryObject<Block> MITHRIL_ORE_NETHER = registerBlock("mithril_ore_nether",
             () -> new DropExperienceBlock(UniformInt.of(3, 7),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_ORE).requiresCorrectToolForDrops()
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.ANCIENT_DEBRIS).requiresCorrectToolForDrops()
                                 .sound(SoundType.NETHERRACK).lightLevel(state -> 9)));
-    //SILVER_ORE,BLOCKS
+    //SILVER
     public static final RegistryObject<Block> SILVER_INGOT_BLOCK = registerBlock("silver_ingot_block",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.OBSIDIAN).requiresCorrectToolForDrops()
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.GOLD_BLOCK).requiresCorrectToolForDrops()
                     .sound(SoundType.AMETHYST).lightLevel(state -> 3)));
+
     public static final RegistryObject<Block> SILVER_RAW_BLOCK = registerBlock("silver_raw_block",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.OBSIDIAN).requiresCorrectToolForDrops()
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.RAW_GOLD_BLOCK).requiresCorrectToolForDrops()
                     .sound(SoundType.AMETHYST).lightLevel(state -> 2)));
 
     public static final RegistryObject<Block> SILVER_ORE = registerBlock("silver_ore",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_ORE).requiresCorrectToolForDrops()
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.GOLD_ORE).requiresCorrectToolForDrops()
                     .sound(SoundType.STONE).lightLevel(state -> 1)));
-//    public static final RegistryObject<Block> SILVER_ORE_DEEPSLATE = registerBlock("silver_ore_deepslate",
-//            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE_IRON_ORE).requiresCorrectToolForDrops()
-//                    .sound(SoundType.DEEPSLATE).lightLevel(state -> 1)));
-//    public static final RegistryObject<Block> SILVER_ORE_NETHER = registerBlock("silver_ore_nether",
-//            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_ORE).requiresCorrectToolForDrops()
-//                    .sound(SoundType.NETHERRACK).lightLevel(state -> 1)));
 
+    public static final RegistryObject<Block> SILVER_ORE_DEEPSLATE = registerBlock("silver_ore_deepslate",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE_GOLD_ORE).requiresCorrectToolForDrops()
+                    .sound(SoundType.DEEPSLATE).lightLevel(state -> 1)));
+
+    public static final RegistryObject<Block> SILVER_ORE_NETHER = registerBlock("silver_ore_nether",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE_GOLD_ORE).requiresCorrectToolForDrops()
+                    .sound(SoundType.NETHERRACK).lightLevel(state -> 1)));
 
 
 
