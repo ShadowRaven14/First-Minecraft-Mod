@@ -2,7 +2,10 @@
 *.class
 
 # Log file
+/src/generated/resources/.cache
+/run-data/logs
 *.log
+*.gz
 
 # BlueJ files
 *.ctxt
@@ -48,6 +51,3 @@ run
 
 # Files from Forge MDK
 forge*changelog.txt
-
-/run-data/logs
-*.gz
